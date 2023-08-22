@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,700;1,6..12,500&display=swap');
+@import "partial_tablet_style.css";
+$nav-color: #73878a;
+$coloured-light-grey-1: #f3dff5;
+$form-color: darken($coloured-light-grey-1, 5%);
+$footer-color: #2c1b2e;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: $coloured-light-grey-1;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+}
+nav {
+    background-color: $nav-color;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    img {
+        margin-left: 1.3em;
+    }
+    ul {
+        display: flex;
+        list-style-type: none;
+            li {
+                margin-right: 1.5em;
+            }
+    }
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+        color: lightcoral;
+        text-decoration: underline;
+    }
+    &:visited {
+        color: indigo;
+    }
+    &:hover:visited {
+        color: darkgrey;
+        text-decoration: underline;
+    }
+}
+section a {
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+        color: lightcoral;
+    }
+    &:visited {
+        color: indigo;
+    }
+    &:hover:visited {
+        color: darkgrey;
+    }
+}
+h1 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.7em;
+}
+section p {
+    margin: 20px;
+    line-height: 2em;
+}
+.form-header {
+    background-color: $form-color;
+    text-align: center;
+    padding: 25px;
+    margin: 100px 20px 0 20px;
+    border: 1px solid $nav-color;
+    border-bottom: none;
+    h2 {
+        margin: 30px 0;
+    }
+    p {
+        line-height: 1.5em;
+    }
+}
+.my-form {
+    background-color: $form-color;
+    margin: 0 20px 0 20px;
+    border: 1px solid $nav-color;
+    border-top: none;
+}
+.form-row {
+    display: flex;
+    flex-flow: wrap column;
+    margin-left: 35px;
+    label {
+        margin-bottom: 15px;
+    }
+}
+.form-row label[for="full-name"] {
+    margin-top: 70px;
+    width: 85%;
+}
+.form-row input[type="text"],
+.form-row input[type="email"] {
+    font-size: 17px;
+    margin-bottom: 50px;
+    border: 1px solid $nav-color;
+    border-radius: 5px;
+    width: 85%;
+    padding: 10px;
+}
+.form-row input[type="text"]:invalid,
+.form-row input[type="email"]:invalid {
+    border: 1px solid darkred;
+    color: darkred;
+    box-shadow: none;
+}
+.form-row select {
+    margin-bottom: 50px;
+    border: 1px solid $nav-color;
+    border-radius: 5px;
+    width: 85%;
+    padding: 10px;
+    -webkit-appearance: none;
+}
+.form-row label[for="request"],
+.form-row label[for="ask-me"] {
+    width: 85%;
+}
+.form-row textarea {
+    width: 85%;
+    margin-bottom: 50px;
+    border: 1px solid $nav-color;
+    border-radius: 5px;
+    padding: 12px;
+    min-height: 200px;
+    resize: none;
+}
+.button-row button {
+    display: flex;
+    cursor: pointer;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 50px;
+    padding: 10px 50px;
+    color: whitesmoke;
+    background-color: $nav-color;
+    border: 1px solid $footer-color;
+    border-radius: 20px;
+    &:hover {
+        opacity: 70%;
+    }
+}
+footer {
+    background-color: $footer-color;
+    color: whitesmoke;
+    position: relative;
+    bottom: 0;
+    padding-top: 2px;
+    margin-top: 80px;
+    p {
+        font-size: 12px;
+        margin: 7px 15px 7px 15px;
+    }
+    div {
+        display: flex;
+        flex-flow: wrap row;
+        justify-content: space-between;
+    }
+    img {
+        width: 30px;
+        height: 30px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+    }
+}
+.y-scroller {
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+}
+.bio {
+    display: block;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    h2 {
+        padding: 70px 20px 10px 20px;
+        text-align: center;
+    }
+}
+.bio figure {
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    img {
+        padding-top: 20px;
+    }
+    figcaption {
+        font-style: italic;
+        text-align: left;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        margin-right: 15px;
+    }
+}
+.content ul {
+    margin-top: 20px;
+    margin-right: 15px;
+    padding-left: 35px;
+    line-height: 1.8em;
+    list-style-type: circle;
+    ul:last-of-type {
+        list-style-type: disclosure-closed; 
+        }
+}
+.content button {
+    display: block;
+    margin: 40px auto;
+    padding: 5px 15px;
+    background-color: darken($coloured-light-grey-1, 30%);
+    border-radius: 15px;
+    border: 1px solid $nav-color;
+    &:hover {
+        background-color: darken($coloured-light-grey-1, 50%);
+    }
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        &:hover {
+            color: whitesmoke;
+        }
+    }
+}
+.bio:nth-of-type(3),
+.bio:nth-of-type(6) {
+    ul {
+    list-style-type: disclosure-closed; 
+    }
+}
+video {
+    max-width: 100%;
+    max-height: 13%;
+}
+.x-scroller {
+    display: flex;
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+}
+.libri {
+    display: block;
+    justify-content: center;
+    scroll-snap-align: start;
+    min-height: 100%;
+    min-width: 100%;
+    padding-top: 70px;
+    padding-left: 20px;
+    img {
+        margin-bottom: 10px;
+    }
+    pre {
+        font-family: "Caveat", cursive;
+        font-weight: bold;
+        font-size: 19px;
+        p {
+            text-align: right;
+            font-family: "Nunito Sans", sans-serif;
+            font-weight: normal;
+            font-size: 11px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+    }   
+}
+.libri button {
+    justify-content: space-evenly;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid $nav-color;
+    margin-bottom: 40px;
+    &:first-of-type {
+        background-color: darken($coloured-light-grey-1, 30%);
+        &:hover {
+            background-color: darken($coloured-light-grey-1, 50%);
+        }
+    }
+    &:last-of-type {
+        background-color: lighten($footer-color, 10%);
+        &:hover {
+            opacity: 40%;
+        }
+    }
+    a:hover {
+        color: whitesmoke;
+    }
+}
+.libri button a {
+    text-decoration: none;
+    color:whitesmoke;
+}
