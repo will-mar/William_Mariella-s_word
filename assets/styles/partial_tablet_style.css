@@ -1,16 +1,26 @@
 @media only screen and (min-width: 401px) and (max-width: 960px) {
-  nav img {
-    margin-left: 30%;
+  nav a picture {
+    margin-left: calc(20% + 21px);
   }
   nav ul {
-    margin-right: 30%;
+    margin-right: 15%;
   }
   .page,
   .footer-content {
+    display: block;
+    justify-content: center;
     width: 70%;
     margin: 0 auto;
   }
-  .form-row {
+  .bio figure {
+    display: flex;
+    flex-flow: nowrap column;
+  }
+  .libri {
+    display: flex;
     flex-flow: wrap row;
+  }
+  .libri img {
+    align-self: center;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

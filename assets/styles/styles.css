@@ -129,8 +129,8 @@ section p {
 
 .form-row input[type=text]:invalid,
 .form-row input[type=email]:invalid {
-  border: 1px solid darkred;
-  color: darkred;
+  border: 1px solid crimson;
+  color: crimson;
   box-shadow: none;
 }
 
