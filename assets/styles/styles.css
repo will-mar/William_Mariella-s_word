@@ -222,7 +222,7 @@ footer img {
   justify-content: center;
 }
 .bio figure img {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 .bio figure figcaption {
   font-style: italic;

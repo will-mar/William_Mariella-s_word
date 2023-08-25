@@ -3,7 +3,7 @@
     margin-left: calc(20% + 21px);
   }
   nav ul {
-    margin-right: 15%;
+    margin-right: 7.5%;
   }
   .page,
   .footer-content {
@@ -13,14 +13,9 @@
     margin: 0 auto;
   }
   .bio figure {
-    display: flex;
-    flex-flow: nowrap column;
+    flex-flow: wrap column;
   }
-  .libri {
-    display: flex;
-    flex-flow: wrap row;
-  }
-  .libri img {
-    align-self: center;
+  .bio figure img {
+    padding: 0 100%;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */
