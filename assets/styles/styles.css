@@ -298,12 +298,12 @@ video {
   font-size: 19px;
 }
 .libri pre p {
-  text-align: right;
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
   font-size: 11px;
   margin-top: 10px;
   margin-bottom: -10px;
+  margin-left: 40px;
 }
 
 .libri button {
