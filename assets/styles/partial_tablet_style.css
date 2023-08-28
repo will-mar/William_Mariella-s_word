@@ -18,4 +18,10 @@
   .bio figure img {
     padding: 0 100%;
   }
+  .libri {
+    display: block;
+  }
+  .libri .lyrics {
+    justify-items: center;
+  }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

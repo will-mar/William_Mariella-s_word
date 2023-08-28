@@ -261,53 +261,54 @@ video {
     overflow-x: scroll;
 }
 .libri {
-    display: block;
-    justify-content: center;
     scroll-snap-align: start;
     min-height: 100%;
     min-width: 100%;
     padding-top: 70px;
-    padding-left: 20px;
     img {
-        margin-bottom: 10px;
+        margin-bottom: -25px;
     }
-    pre {
-        font-family: "Caveat", cursive;
-        font-weight: bold;
-        font-size: 19px;
-        p {
-            font-family: "Nunito Sans", sans-serif;
-            font-weight: normal;
-            font-size: 11px;
-            margin-top: 10px;
-            margin-bottom: -10px;
-            margin-left: 40px;
-        }
-    }   
 }
-.libri button {
+.lyrics {
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+    font-size: 18px;
+    p {
+        margin-bottom: -25px;
+    }
+    p:last-of-type {
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: normal;
+        font-size: 12px;
+        margin: 30px 0 20px 30px;
+    }
+}   
+.merch-buttons {
+    display: flex;
     justify-content: space-evenly;
-    padding: 5px 15px;
-    border-radius: 15px;
-    border: 1px solid $nav-color;
-    margin-bottom: 40px;
-    &:first-of-type {
-        background-color: darken($coloured-light-grey-1, 30%);
+    margin-bottom: 25px;
+        button {
+        padding: 5px 15px;
+        border-radius: 15px;
+        border: 1px solid $nav-color;
+        &:first-of-type {
+            background-color: darken($coloured-light-grey-1, 30%);
         &:hover {
             background-color: darken($coloured-light-grey-1, 50%);
+            }
         }
-    }
-    &:last-of-type {
-        background-color: lighten($footer-color, 10%);
+        &:last-of-type {
+            background-color: lighten($footer-color, 10%);
         &:hover {
             opacity: 40%;
+            }
+        }
+        a {
+        text-decoration: none;
+        color:whitesmoke;
+        &:hover {
+            color: whitesmoke;
+        }
         }
     }
-    a:hover {
-        color: whitesmoke;
-    }
-}
-.libri button a {
-    text-decoration: none;
-    color:whitesmoke;
 }

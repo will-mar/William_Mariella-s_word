@@ -281,55 +281,56 @@ video {
 }
 
 .libri {
-  display: block;
-  justify-content: center;
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
   padding-top: 70px;
-  padding-left: 20px;
 }
 .libri img {
-  margin-bottom: 10px;
-}
-.libri pre {
-  font-family: "Caveat", cursive;
-  font-weight: bold;
-  font-size: 19px;
-}
-.libri pre p {
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: normal;
-  font-size: 11px;
-  margin-top: 10px;
-  margin-bottom: -10px;
-  margin-left: 40px;
+  margin-bottom: -25px;
 }
 
-.libri button {
+.lyrics {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  font-size: 18px;
+}
+.lyrics p {
+  margin-bottom: -25px;
+}
+.lyrics p:last-of-type {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  margin: 30px 0 20px 30px;
+}
+
+.merch-buttons {
+  display: flex;
   justify-content: space-evenly;
+  margin-bottom: 25px;
+}
+.merch-buttons button {
   padding: 5px 15px;
   border-radius: 15px;
   border: 1px solid #73878a;
-  margin-bottom: 40px;
 }
-.libri button:first-of-type {
+.merch-buttons button:first-of-type {
   background-color: #c76ad1;
 }
-.libri button:first-of-type:hover {
+.merch-buttons button:first-of-type:hover {
   background-color: #9833a2;
 }
-.libri button:last-of-type {
+.merch-buttons button:last-of-type {
   background-color: #4b2e4e;
 }
-.libri button:last-of-type:hover {
+.merch-buttons button:last-of-type:hover {
   opacity: 40%;
 }
-.libri button a:hover {
+.merch-buttons button a {
+  text-decoration: none;
   color: whitesmoke;
 }
-
-.libri button a {
-  text-decoration: none;
+.merch-buttons button a:hover {
   color: whitesmoke;
 }/*# sourceMappingURL=styles.css.map */

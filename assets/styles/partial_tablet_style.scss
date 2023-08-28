@@ -19,6 +19,9 @@
         }
     }
     .libri {
-        
+        display: block;
+        .lyrics {
+            justify-items: center;
+        }
     }
 }
