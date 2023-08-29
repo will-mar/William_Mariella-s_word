@@ -1,9 +1,9 @@
-@media only screen and (min-width: 40px) and (max-width: 559px) {
+@media only screen and (min-width: 400px) and (max-width: 559px) {
   nav a picture {
-    margin-left: calc(10% + 21px);
+    margin-left: calc(5% + 21px);
   }
   nav ul {
-    margin-right: 4%;
+    margin-right: 5%;
   }
   .page,
   .footer-content {
@@ -33,16 +33,10 @@
   .bio figure img {
     margin: 0 100%;
   }
-  .libri img {
-    margin-left: calc(50% - 60px);
-  }
   .libri:first-of-type .lyrics {
     margin-left: calc(50% - 150px);
   }
   .libri:last-of-type .lyrics {
-    margin-left: calc(50% - 100px);
-  }
-  .libri .lyrics p:last-of-type {
-    margin-left: 21px;
+    margin-left: calc(50% - 75px);
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

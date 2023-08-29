@@ -307,10 +307,6 @@ video {
   margin: 30px 0 20px 22px;
 }
 
-.libri:last-of-type .lyrics {
-  margin-left: calc(40% - 45px);
-}
-
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
