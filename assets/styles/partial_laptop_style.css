@@ -1,0 +1,18 @@
+@media only screen and (min-width: 960px) {
+  nav a picture {
+    margin-left: 100%;
+  }
+  nav ul {
+    margin-right: calc(10% - 10px);
+  }
+  .page,
+  .footer-content {
+    display: block;
+    justify-content: center;
+    width: 52%;
+    margin: 0 auto;
+  }
+  .bio figure img {
+    margin: 0 100%;
+  }
+}/*# sourceMappingURL=partial_laptop_style.css.map */
