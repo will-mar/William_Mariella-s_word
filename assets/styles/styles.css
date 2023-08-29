@@ -85,7 +85,7 @@ section p {
   background-color: #ecccef;
   text-align: center;
   padding: 25px;
-  margin: 100px 20px 0 20px;
+  margin: 100px 30px 0 30px;
   border: 1px solid #73878a;
   border-bottom: none;
 }
@@ -98,7 +98,7 @@ section p {
 
 .my-form {
   background-color: #ecccef;
-  margin: 0 20px 0 20px;
+  margin: 0 30px;
   border: 1px solid #73878a;
   border-top: none;
 }
@@ -302,7 +302,7 @@ video {
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
   font-size: 12px;
-  margin: 30px 0 20px 30px;
+  margin: 30px 0 20px 35px;
 }
 
 .merch-buttons {

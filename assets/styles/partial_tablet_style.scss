@@ -12,16 +12,19 @@
         width: 70%;
         margin: 0 auto;
     }
-    .bio figure {
-        flex-flow: wrap column;
-        img {
-            padding: 0 100%;
-        }
+    .bio figure img {
+        margin: 0 100%;
     }
-    .libri {
-        display: block;
-        .lyrics {
-            justify-items: center;
-        }
+    .libri img {
+        margin-left: calc(50% - 60px);
+    }
+    .libri:first-of-type .lyrics {
+        margin-left: calc(50% - 150px);
+    }
+    .libri:last-of-type .lyrics {
+        margin-left: calc(50% - 85px);
+    }
+    .libri .lyrics p:last-of-type {
+        margin-left: 21px;
     }
 }
