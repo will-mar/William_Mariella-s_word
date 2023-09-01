@@ -85,8 +85,8 @@ section p {
 .form-header {
   background-color: #ecccef;
   text-align: center;
-  padding: 25px;
-  margin: 100px 30px 0 30px;
+  padding: 22px;
+  margin: 100px 20px 0 20px;
   border: 1px solid #73878a;
   border-bottom: none;
 }
@@ -99,7 +99,7 @@ section p {
 
 .my-form {
   background-color: #ecccef;
-  margin: 0 30px;
+  margin: 0 20px;
   border: 1px solid #73878a;
   border-top: none;
 }
@@ -107,24 +107,31 @@ section p {
 .form-row {
   display: flex;
   flex-flow: wrap column;
-  margin-left: 35px;
+  margin: 0 25px;
 }
 .form-row label {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .form-row label[for=full-name] {
   margin-top: 70px;
+}
+
+.form-row label[for=ask-me] {
   width: 85%;
 }
 
 .form-row input[type=text],
-.form-row input[type=email] {
+.form-row input[type=email],
+.form-row select,
+.form-row textarea {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
   margin-bottom: 50px;
   border: 1px solid #73878a;
   border-radius: 5px;
-  width: 85%;
   padding: 10px;
+  height: 75%;
 }
 
 .form-row input[type=text]:invalid,
@@ -135,27 +142,12 @@ section p {
 }
 
 .form-row select {
-  margin-bottom: 50px;
-  border: 1px solid #73878a;
-  border-radius: 5px;
-  width: 85%;
-  padding: 10px;
   -webkit-appearance: none;
 }
 
-.form-row label[for=request],
-.form-row label[for=ask-me] {
-  width: 85%;
-}
-
 .form-row textarea {
-  width: 85%;
-  margin-bottom: 50px;
-  border: 1px solid #73878a;
-  border-radius: 5px;
-  padding: 12px;
+  padding: 15px;
   min-height: 200px;
-  resize: none;
 }
 
 .button-row button {
@@ -293,6 +285,10 @@ video {
 }
 
 .lyrics {
+  display: block;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0 auto;
   font-family: "Caveat", cursive;
   font-weight: bold;
   font-size: 18px;

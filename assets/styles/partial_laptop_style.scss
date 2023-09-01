@@ -1,16 +1,18 @@
 @media only screen and (min-width: 960px) {
     nav a picture {
-        margin-left: 100%;
+        margin-left: calc(20vw + 1em);
     }
     nav ul {
-        margin-right: calc(10% - 10px);
+        margin-right: calc(20vw + 1.5em);
     }
     .page,
     .footer-content {
         display: block;
-        justify-content: center;
-        width: 52%;
+        width: 48%;
         margin: 0 auto;
     }
-    
-}
+    h1 {
+        margin: 0 auto;
+        width: 90%;
+    }
+        }

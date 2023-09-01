@@ -1,14 +1,14 @@
-@media only screen and (min-width: 400px) and (max-width: 559px) {
+@media only screen and (min-width: 400px) and (max-width: 699px) {
   nav a picture {
-    margin-left: calc(5% + 21px);
+    margin-left: 1em;
   }
   nav ul {
-    margin-right: 5%;
+    margin-right: calc(1vw + 1.5em);
   }
   .page,
+  .no-shrink-laptop,
   .footer-content {
     display: block;
-    justify-content: center;
     width: 90%;
     margin: 0 auto;
   }
@@ -16,27 +16,21 @@
     margin: 0 100%;
   }
 }
-@media only screen and (min-width: 560px) and (max-width: 959px) {
+@media only screen and (min-width: 700px) and (max-width: 959px) {
   nav a picture {
-    margin-left: calc(20% + 21px);
+    margin-left: calc(10vw + 1em);
   }
   nav ul {
-    margin-right: 8%;
+    margin-right: calc(10vw + 1.5em);
   }
   .page,
+  .no-shrink-laptop,
   .footer-content {
     display: block;
-    justify-content: center;
-    width: 65%;
+    width: 73%;
     margin: 0 auto;
   }
   .bio figure img {
     margin: 0 100%;
-  }
-  .libri:first-of-type .lyrics {
-    margin-left: calc(50% - 150px);
-  }
-  .libri:last-of-type .lyrics {
-    margin-left: calc(50% - 75px);
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */
