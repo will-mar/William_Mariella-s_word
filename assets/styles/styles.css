@@ -194,7 +194,6 @@ footer img {
 .y-scroller {
   scroll-snap-type: y proximity;
   overflow-y: scroll;
-  overflow-x: hidden;
   justify-content: center;
 }
 

@@ -6,7 +6,7 @@
     margin-right: calc(1vw + 1.5em);
   }
   .page,
-  .footer-content {
+  .page-model-2 .footer-content {
     display: block;
     width: 90%;
     margin: 0 auto;
@@ -23,6 +23,7 @@
     margin-right: calc(10vw + 1.5em);
   }
   .page,
+  .page-model-2,
   .footer-content {
     display: block;
     width: 73%;
