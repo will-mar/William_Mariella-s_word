@@ -21,13 +21,11 @@
     width: 90%;
   }
   .bio {
+    display: flex;
     min-height: 90%;
   }
-  .bio figure {
-    float: left;
-    flex-direction: column;
-  }
   .content {
+    order: -1;
     margin-left: 50px;
   }
 }/*# sourceMappingURL=partial_laptop_style.css.map */

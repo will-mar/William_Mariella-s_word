@@ -21,19 +21,21 @@
         width: 90%;
     }
     .bio {
+        display: flex;
+
         min-height: 90%;
     }
     .bio figure {
-        float: left;
-        flex-direction: column;
+
         img {
-            
+           
         }
         figcaption {
- 
+
         }
     }
     .content {
+        order: -1;
         margin-left: 50px;
     }
 }

@@ -111,7 +111,7 @@ section p {
     margin-top: 70px;
 }
 .form-row label[for="ask-me"] {
-    width: 85%;
+    width: 90%;
 }
 .form-row input[type="text"],
 .form-row input[type="email"],
@@ -123,7 +123,6 @@ section p {
     border: 1px solid $nav-color;
     border-radius: 5px;
     padding: 10px;
-    height: 75%;
 }
 .form-row input[type="text"]:invalid,
 .form-row input[type="email"]:invalid {
@@ -137,6 +136,7 @@ section p {
 .form-row textarea {
     padding: 15px;
     min-height: 200px;
+    width: 100%;
 }
 .button-row button {
     display: flex;
