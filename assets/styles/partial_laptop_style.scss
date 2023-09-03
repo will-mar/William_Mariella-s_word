@@ -13,29 +13,25 @@
     }
     .page-model-2 {
         display: block;
-        width: 90%;
+        width: 70%;
         margin: 0 auto;
     }
     h1 {
         margin: 0 auto;
-        width: 90%;
     }
     .bio {
-        display: flex;
-
         min-height: 90%;
     }
-    .bio figure {
-
-        img {
-           
-        }
-        figcaption {
-
-        }
+    .bio figure,
+    video {
+        float: left;
+        max-width: min-content;
+        margin-right: 60px;
     }
     .content {
-        order: -1;
-        margin-left: 50px;
+        margin-top: -20px;
+    }
+    video {
+        width: 50%;
     }
 }
