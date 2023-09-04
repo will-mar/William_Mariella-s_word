@@ -215,11 +215,16 @@ footer {
         list-style-type: disclosure-closed; 
         }
 }
-.content button {
+.buttons-container {
+    display: flex;
+    flex-flow: wrap column;
+}
+.content button,
+.buttons-container button {
     display: block;
-    margin: 30px auto;
-    padding: 5px 15px;
     background-color: darken($coloured-light-grey-1, 30%);
+    margin: 20px auto;
+    padding: 5px 15px;
     border-radius: 15px;
     border: 1px solid $nav-color;
     &:hover {
@@ -229,6 +234,7 @@ footer {
         text-decoration: none;
         color: whitesmoke;
         &:hover {
+            text-decoration: none;
             color: whitesmoke;
         }
     }

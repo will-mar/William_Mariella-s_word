@@ -1,9 +1,9 @@
 @media only screen and (min-width: 400px) and (max-width: 699px) {
   nav a picture {
-    margin-left: 1em;
+    margin-left: 2vw;
   }
   nav ul {
-    margin-right: calc(1vw + 1.5em);
+    margin-right: calc(1vw + 1em);
   }
   .page,
   .page-model-2 .footer-content {
@@ -17,10 +17,10 @@
 }
 @media only screen and (min-width: 700px) and (max-width: 959px) {
   nav a picture {
-    margin-left: calc(10vw + 1em);
+    margin-left: calc(9vw - 0.5em);
   }
   nav ul {
-    margin-right: calc(10vw + 1.5em);
+    margin-right: calc(6vw + 1em);
   }
   .page,
   .page-model-2,
@@ -31,5 +31,12 @@
   }
   .bio figure img {
     margin: 0 100%;
+  }
+  .buttons-container {
+    display: block;
+    justify-items: space-between;
+  }
+  .buttons-container button {
+    margin: 20px 0;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

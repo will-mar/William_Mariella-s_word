@@ -1,9 +1,9 @@
 @media only screen and (min-width: 960px) {
     nav a picture {
-        margin-left: calc(20vw + 1em);
+        margin-left: calc(15vw + 0.7em);
     }
     nav ul {
-        margin-right: calc(10vw + 1.5em);
+        margin-right: calc(13vw + 1.5em);
     }
     .page,
     .footer-content {
@@ -37,5 +37,8 @@
     }
     video {
         width: 50%;
+    }
+    .buttons-container {
+        justify-items: space-around;
     }
 }
