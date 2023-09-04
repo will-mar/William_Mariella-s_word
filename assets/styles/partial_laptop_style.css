@@ -8,12 +8,12 @@
   .page,
   .footer-content {
     display: block;
-    width: 48%;
+    width: 105vh;
     margin: 0 auto;
   }
   .page-model-2 {
     display: block;
-    width: 70%;
+    width: 150vh;
     margin: 0 auto;
   }
   h1 {
@@ -27,9 +27,13 @@
     float: left;
     max-width: -moz-min-content;
     max-width: min-content;
-    margin-right: 60px;
+    margin-right: 30px;
+    margin-left: 20px;
   }
   .content {
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: end;
     margin-top: -20px;
   }
   video {
