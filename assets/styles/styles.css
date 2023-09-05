@@ -10,19 +10,19 @@
 body {
   background-color: #f3dff5;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 nav {
   background-color: #73878a;
-  font-size: 15px;
   display: flex;
   align-items: center;
   position: fixed;
+  justify-content: space-between;
+  font-size: 15px;
   top: 0;
   width: 100%;
   height: 50px;
-  justify-content: space-between;
 }
 nav img {
   margin-left: 1.3em;
@@ -68,13 +68,13 @@ section a:hover:visited {
 }
 
 h1 {
-  margin-top: 70px;
-  margin-bottom: 30px;
-  padding: 0 20px;
   font-style: italic;
   text-align: center;
   font-size: 25px;
   line-height: 1.7em;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  padding: 0 20px;
 }
 
 section p {
@@ -216,21 +216,17 @@ footer img {
   font-style: italic;
   text-align: left;
   font-size: 12px;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  margin-right: 15px;
+  padding: 10px 15px 5px 15px;
 }
 
 .content ul {
-  margin-top: 20px;
-  margin-right: 15px;
-  padding-left: 35px;
+  padding: 15px 10px 0 35px;
   line-height: 1.8em;
   list-style-type: circle;
 }
 .content ul ul:last-of-type {
   list-style-type: disclosure-closed;
+  margin-left: -15px;
 }
 
 .buttons-container {
@@ -242,7 +238,7 @@ footer img {
 .buttons-container button {
   display: block;
   background-color: #c76ad1;
-  margin: 20px auto;
+  margin: 30px auto;
   padding: 5px 15px;
   border-radius: 15px;
   border: 1px solid #73878a;
@@ -306,7 +302,7 @@ video {
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
   font-size: 12px;
-  margin: 30px 0 20px 22px;
+  margin: 30px 0 20px 20px;
 }
 
 .merch-buttons {

@@ -1,4 +1,7 @@
 @media only screen and (min-width: 960px) {
+  body {
+    font-size: 17px;
+  }
   nav a picture {
     margin-left: calc(15vw + 0.7em);
   }
@@ -8,7 +11,7 @@
   .page,
   .footer-content {
     display: block;
-    width: 105vh;
+    width: 100vh;
     margin: 0 auto;
   }
   .page-model-2 {
@@ -40,6 +43,10 @@
     width: 50%;
   }
   .buttons-container {
-    justify-items: space-around;
+    display: block;
+    justify-items: space-evenly;
+  }
+  .buttons-container button {
+    margin: none;
   }
 }/*# sourceMappingURL=partial_laptop_style.css.map */
