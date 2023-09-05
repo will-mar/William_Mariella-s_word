@@ -19,16 +19,8 @@
     margin: 0 auto;
     width: 80%;
   }
-  .buttons-container {
-    display: block;
-    justify-items: space-between;
-    margin: 30px 0;
-  }
 }
 @media only screen and (min-width: 700px) and (max-width: 959px) {
-  body {
-    font-size: 17px;
-  }
   nav a picture {
     margin-left: calc(8vw - 0.5em);
   }
@@ -44,12 +36,5 @@
   }
   .bio figure img {
     margin: 0 100%;
-  }
-  .buttons-container {
-    display: block;
-    justify-items: space-between;
-  }
-  .buttons-container button {
-    margin: none;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

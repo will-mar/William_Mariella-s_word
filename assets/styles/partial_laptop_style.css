@@ -42,11 +42,4 @@
   video {
     width: 50%;
   }
-  .buttons-container {
-    display: block;
-    justify-items: space-evenly;
-  }
-  .buttons-container button {
-    margin: none;
-  }
 }/*# sourceMappingURL=partial_laptop_style.css.map */
