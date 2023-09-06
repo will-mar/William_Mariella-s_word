@@ -112,9 +112,6 @@ section p {
 .form-row label[for="full-name"] {
     margin-top: 70px;
 }
-.form-row label[for="message"] {
-    width: 90%;
-}
 .form-row input[type="text"],
 .form-row input[type="email"],
 .form-row select,
@@ -141,7 +138,7 @@ section p {
 }
 .button-row input {
     color: whitesmoke;
-    display: flex;
+    display: block;
     cursor: pointer;
     font-weight: bolder;
     text-align: center;
