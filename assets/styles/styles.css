@@ -10,7 +10,6 @@
 body {
   background-color: #f3dff5;
   font-family: "Nunito Sans", sans-serif;
-  font-size: 15px;
 }
 
 nav {
@@ -78,6 +77,7 @@ h1 {
 }
 
 section p {
+  font-size: 15px;
   margin: 20px;
   line-height: 2em;
 }
@@ -85,6 +85,7 @@ section p {
 .form-header {
   background-color: #ecccef;
   text-align: center;
+  font-size: 15px;
   padding: 22px;
   margin: 100px 20px 0 20px;
   border: 1px solid #73878a;
@@ -99,6 +100,7 @@ section p {
 
 .my-form {
   background-color: #ecccef;
+  font-size: 15px;
   margin: 0 20px;
   border: 1px solid #73878a;
   border-top: none;
@@ -117,7 +119,7 @@ section p {
   margin-top: 70px;
 }
 
-.form-row label[for=ask-me] {
+.form-row label[for=message] {
   width: 90%;
 }
 
@@ -126,11 +128,10 @@ section p {
 .form-row select,
 .form-row textarea {
   font-family: "Nunito Sans", sans-serif;
-  font-size: 15px;
   margin-bottom: 50px;
   border: 1px solid #73878a;
   border-radius: 5px;
-  padding: 10px;
+  padding: 7px;
 }
 
 .form-row input[type=text]:invalid,
@@ -145,12 +146,13 @@ section p {
 }
 
 .form-row textarea {
-  padding: 15px;
+  padding: 10px;
   min-height: 200px;
-  width: 100%;
+  resize: none;
 }
 
-.button-row button {
+.button-row input {
+  color: whitesmoke;
   display: flex;
   cursor: pointer;
   font-weight: bolder;
@@ -158,12 +160,11 @@ section p {
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 10px 50px;
-  color: whitesmoke;
   background-color: #73878a;
   border: 1px solid #2c1b2e;
   border-radius: 20px;
 }
-.button-row button:hover {
+.button-row input:hover {
   opacity: 70%;
 }
 

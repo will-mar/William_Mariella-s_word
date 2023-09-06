@@ -6,6 +6,29 @@
         <link rel="icon" type="image/x-icon" href="assets/img/favicon42x42.ico"/>
         <metadata charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script type="text/javascript">
+            (function() {
+                // https://dashboard.emailjs.com/admin/account
+                emailjs.init('KAmRrZR5dxxe1Fke9');
+            })();
+        </script>
+        <script type="text/javascript">
+            window.onload = function() {
+            document.getElementById('my-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // these IDs from the previous steps
+                emailjs.sendForm('service_u0qf22i', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
     </head>
     <body>
         <header>
@@ -62,7 +85,8 @@
                 <h2>Conosciamoci!</h2>
                 <p><em>Potremmo raggiungere importanti traguardi insieme.</em></p>
             </div>
-            <form action="" method="get" class="my-form">
+            <form action="" method="get" class="my-form" id="my-form">
+                <input type="hidden" name="contact_number">
                 <div class="form-row">
                     <label for="full-name">Nome completo</label>
                     <input id="full-name" name="full-name" type="text" placeholder="Nömë Cögnomë"/>
@@ -75,16 +99,16 @@
                     <label for="request">Di cosa hai bisogno?</label>
                     <select id="request" name="request">
                         <option value="copywriting">La stesura di un copy</option>
-                        <option value="chemistry">Ripetizioni in chimica</option>
-                        <option value="other">Altro</option>
+                        <option value="chimica">Ripetizioni in chimica</option>
+                        <option value="altro">Altro</option>
                     </select>
                 </div>
                 <div class="form-row">
-                    <label for="ask-me">Vorresti dirmi qualcosa in più?</label>
-                    <textarea id="ask-me" name="ask-me"></textarea>
+                    <label for="message">Vorresti dirmi qualcosa in più?</label>
+                    <textarea id="message" name="message"></textarea>
                 </div>
                 <div class="button-row">
-                    <button>Invia</button>
+                    <input type="submit" value="Invia"/>
                 </div>
             </form>
         </div>

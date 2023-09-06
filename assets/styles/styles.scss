@@ -13,7 +13,6 @@ $footer-color: #2c1b2e;
 body {
     background-color: $coloured-light-grey-1;
     font-family: "Nunito Sans", sans-serif;
-    font-size: 15px;
 }
 nav {
     background-color: $nav-color;
@@ -76,12 +75,14 @@ h1 {
     padding: 0 20px;
 }
 section p {
+    font-size: 15px;
     margin: 20px;
     line-height: 2em;
 }
 .form-header {
     background-color: $form-color;
     text-align: center;
+    font-size: 15px;
     padding: 22px;
     margin: 100px 20px 0 20px;
     border: 1px solid $nav-color;
@@ -95,6 +96,7 @@ section p {
 }
 .my-form {
     background-color: $form-color;
+    font-size: 15px;
     margin: 0 20px;
     border: 1px solid $nav-color;
     border-top: none;
@@ -110,7 +112,7 @@ section p {
 .form-row label[for="full-name"] {
     margin-top: 70px;
 }
-.form-row label[for="ask-me"] {
+.form-row label[for="message"] {
     width: 90%;
 }
 .form-row input[type="text"],
@@ -118,11 +120,10 @@ section p {
 .form-row select,
 .form-row textarea {
     font-family: "Nunito Sans", sans-serif;
-    font-size: 15px;
     margin-bottom: 50px;
     border: 1px solid $nav-color;
     border-radius: 5px;
-    padding: 10px;
+    padding: 7px;
 }
 .form-row input[type="text"]:invalid,
 .form-row input[type="email"]:invalid {
@@ -134,11 +135,12 @@ section p {
     -webkit-appearance: none;
 }
 .form-row textarea {
-    padding: 15px;
+    padding: 10px;
     min-height: 200px;
-    width: 100%;
+    resize: none;
 }
-.button-row button {
+.button-row input {
+    color: whitesmoke;
     display: flex;
     cursor: pointer;
     font-weight: bolder;
@@ -146,7 +148,6 @@ section p {
     margin: 0 auto;
     margin-bottom: 50px;
     padding: 10px 50px;
-    color: whitesmoke;
     background-color: $nav-color;
     border: 1px solid $footer-color;
     border-radius: 20px;
