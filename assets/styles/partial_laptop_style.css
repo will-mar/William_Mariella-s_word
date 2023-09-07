@@ -39,4 +39,24 @@
   video {
     width: 50%;
   }
+  .libri {
+    display: flex;
+    flex-flow: wrap row;
+    margin-top: 30px;
+  }
+  .libri img {
+    align-self: flex-start;
+  }
+  .lyrics {
+    align-items: flex-start;
+  }
+  .merch-buttons {
+    align-items: flex-end;
+  }
+  .merch-buttons button:last-of-type {
+    margin-left: 150px;
+  }
+  .merch-buttons button:first-of-type {
+    margin-left: auto;
+  }
 }/*# sourceMappingURL=partial_laptop_style.css.map */
