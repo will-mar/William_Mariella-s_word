@@ -39,13 +39,14 @@
   video {
     width: 50%;
   }
-  .libri img {
-    float: left;
-    padding-right: 30px;
-  }
-  .lyrics p {
+  .libri {
     display: flex;
-    flex-flow: wrap column;
-    align-items: flex-start;
+    align-content: stretch;
+  }
+  .lyrics img {
+    float: left;
+  }
+  .merch-buttons {
+    align-items: flex-end;
   }
 }/*# sourceMappingURL=partial_laptop_style.css.map */
