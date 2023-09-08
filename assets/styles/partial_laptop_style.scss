@@ -38,25 +38,15 @@
     video {
         width: 50%;
     }
-    .libri {
+    .libri img {
+        float: left;
+        padding-right: 30px;
+    }
+    .lyrics p {
         display: flex;
-        flex-flow: wrap row;
-        margin-top: 30px;
-        img {
-            align-self: flex-start;
-        }
-    }
-    .lyrics {
+        flex-flow: wrap column;
         align-items: flex-start;
+      
     }
-    .merch-buttons {
-        align-items: flex-end;
-    }
-    .merch-buttons button:last-of-type {
-        margin-left: 150px;
-    }
-    .merch-buttons button:first-of-type {
-        margin-left: auto;
-    }
-    
 }
+
