@@ -47,16 +47,16 @@
         width: 120vh;
     }
     .libri {
-        margin: 22px auto;
+        margin: 25px auto;
     }
     .libri figure {
         float: left;
     }
-    .libri:first-of-type figure {
-        padding-right: 20px;
+    .libri:last-of-type figure {
+        margin-left: 55px;
     }
     .merch-buttons {
-        margin-top: 60px;
+        margin-top: 110px;
     }
 }
 
