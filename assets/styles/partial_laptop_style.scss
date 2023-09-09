@@ -42,5 +42,21 @@
     video {
         width: 50%;
     }
+    .x-scroller {
+        margin: 0 auto;
+        width: 120vh;
+    }
+    .libri {
+        margin: 22px auto;
+    }
+    .libri figure {
+        float: left;
+    }
+    .libri:first-of-type figure {
+        padding-right: 20px;
+    }
+    .merch-buttons {
+        margin-top: 60px;
+    }
 }
 
