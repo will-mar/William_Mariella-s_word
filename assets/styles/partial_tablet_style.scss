@@ -9,7 +9,7 @@
     .page-model-2,
     .footer-content {
         display: block;
-        width: 65vh;
+        width: 63vh;
         margin: 0 auto;
     }
     .bio figure img {
@@ -37,6 +37,10 @@
     }
     .bio figure img {
         margin: 0 100%;
+    }
+    .form-row {
+        flex-direction: row;
+        align-items: flex-start;
     }
 }
 
