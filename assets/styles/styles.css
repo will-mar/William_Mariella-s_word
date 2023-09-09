@@ -109,7 +109,7 @@ section p {
 .form-row {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0 20px;
 }
 .form-row label {
@@ -132,6 +132,10 @@ section p {
   border: 2px solid crimson;
   color: crimson;
   box-shadow: none;
+}
+
+.form-row select {
+  -webkit-appearance: none;
 }
 
 .form-row textarea {

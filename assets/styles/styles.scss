@@ -104,7 +104,7 @@ section p {
 .form-row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 20px;
     label {
         margin-bottom: 10px;
@@ -125,6 +125,9 @@ section p {
     border: 2px solid crimson;
     color: crimson;
     box-shadow: none;
+}
+.form-row select {
+    -webkit-appearance: none;
 }
 .form-row textarea {
     padding: 10px;
@@ -244,6 +247,7 @@ video {
     scroll-snap-type: x mandatory;
     overflow-x: scroll;
     overflow-y: hidden;
+    
 }
 .libri {
     scroll-snap-align: start;
