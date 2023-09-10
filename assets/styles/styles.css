@@ -161,6 +161,18 @@ section p {
   opacity: 70%;
 }
 
+div[popover]:popover-open {
+  position: relative;
+  top: -90;
+  left: 180;
+  color: #2c1b2e;
+  background-color: #f3dff5;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #88548e;
+  z-index: 3;
+}
+
 footer {
   background-color: #2c1b2e;
   color: whitesmoke;
@@ -264,9 +276,21 @@ video {
 
 .x-scroller {
   display: flex;
-  scroll-snap-type: x mandatory;
   overflow-x: scroll;
   overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+.x-scroller::-webkit-scrollbar-button {
+  background-color: #dda5e3;
+  border-radius: 20px;
+  height: 5px;
+}
+.x-scroller::-webkit-scrollbar-thumb {
+  display: none;
+}
+.x-scroller::-webkit-scrollbar-track {
+  display: none;
 }
 
 .libri {

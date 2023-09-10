@@ -150,6 +150,17 @@ section p {
         opacity: 70%;
     }
 }
+div[popover]:popover-open {
+    position: relative;
+    top: -90;
+    left: 180;
+    color: $footer-color;
+    background-color: $coloured-light-grey-1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid lighten($footer-color, 30%);
+    z-index: 3;
+}
 footer {
     background-color: $footer-color;
     color: whitesmoke;
@@ -244,9 +255,21 @@ video {
 }
 .x-scroller {
     display: flex;
-    scroll-snap-type: x mandatory;
     overflow-x: scroll;
     overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar-button {
+        background-color: darken($form-color, 10%);
+        border-radius: 20px;
+        height: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+        display: none;
+    }
+    &::-webkit-scrollbar-track {
+        display: none;
+    }
 }
 .libri {
     scroll-snap-align: start;
