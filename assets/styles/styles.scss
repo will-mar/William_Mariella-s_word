@@ -104,7 +104,8 @@ section p {
 .form-row {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: flex-start;
     margin: 0 20px;
     label {
         margin-bottom: 10px;
@@ -150,14 +151,17 @@ section p {
         opacity: 70%;
     }
 }
-div[open][popover] {
+div #mypopover[popover]:popover-open {
     display: block;
     color: $footer-color;
     background-color: $coloured-light-grey-1;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid lighten($footer-color, 30%);
-    z-index: 2;
+    z-index: 3;
+}
+div #mypopover[popover]::backdrop {
+    backdrop-filter: blur(2px);
 }
 footer {
     background-color: $footer-color;
