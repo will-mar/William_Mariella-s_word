@@ -38,5 +38,18 @@
     .bio figure img {
         margin: 0 100%;
     }
+    @mixin two-buttons {
+        .two-buttons {
+        display: flex;
+        flex-wrap: wrap row;
+        justify-items: space-between;
+        }
+    }
+    @mixin my-form {
+        .form-row {
+            flex-wrap: nowrap;
+            align-items: flex-start;
+        }
+    }
 }
 

@@ -161,16 +161,14 @@ section p {
   opacity: 70%;
 }
 
-div[popover]:popover-open {
-  position: relative;
-  top: -90;
-  left: 180;
+div[open][popover] {
+  display: block;
   color: #2c1b2e;
   background-color: #f3dff5;
   padding: 10px;
   border-radius: 10px;
   border: 1px solid #88548e;
-  z-index: 3;
+  z-index: 2;
 }
 
 footer {
@@ -179,7 +177,7 @@ footer {
   position: relative;
   bottom: 0;
   padding-top: 2px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 footer p {
   font-size: 12px;
@@ -240,8 +238,13 @@ footer .social img:first-of-type {
   margin-left: -15px;
 }
 
+.two-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .content button,
-.buttons-container button {
+.two-buttons button {
   display: block;
   background-color: #c76ad1;
   margin: 30px auto;
@@ -250,16 +253,16 @@ footer .social img:first-of-type {
   border: 1px solid #73878a;
 }
 .content button:hover,
-.buttons-container button:hover {
+.two-buttons button:hover {
   background-color: #9833a2;
 }
 .content button a,
-.buttons-container button a {
+.two-buttons button a {
   text-decoration: none;
   color: whitesmoke;
 }
 .content button a:hover,
-.buttons-container button a:hover {
+.two-buttons button a:hover {
   text-decoration: none;
   color: whitesmoke;
 }
@@ -280,17 +283,6 @@ video {
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-}
-.x-scroller::-webkit-scrollbar-button {
-  background-color: #dda5e3;
-  border-radius: 20px;
-  height: 5px;
-}
-.x-scroller::-webkit-scrollbar-thumb {
-  display: none;
-}
-.x-scroller::-webkit-scrollbar-track {
-  display: none;
 }
 
 .libri {
