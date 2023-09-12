@@ -45,11 +45,5 @@
         justify-items: space-between;
         }
     }
-    @mixin my-form {
-        .form-row {
-            flex-direction: row;
-            align-items: flex-start;
-        }
-    }
 }
 
