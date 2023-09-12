@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nunito+Sans:ital,opsz,wght@0,6..12,500;0,6..12,700;1,6..12,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 * {
@@ -9,7 +9,7 @@
 
 body {
   background-color: #f3dff5;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 nav {
@@ -321,6 +321,7 @@ video {
   width: max-content;
   margin: 0 auto;
   font-family: "Caveat", cursive;
+  font-weight: bold;
 }
 .lyrics p {
   margin-bottom: -25px;
@@ -336,7 +337,7 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 .merch-buttons button {
   cursor: pointer;
