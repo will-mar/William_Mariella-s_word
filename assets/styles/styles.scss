@@ -68,7 +68,7 @@ section a {
 h1 {
     font-style: italic;
     text-align: center;
-    font-size: 25px;
+    font-size: 24px;
     line-height: 1.7em;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -82,21 +82,21 @@ section p {
 .form-header {
     background-color: $form-color;
     text-align: center;
-    font-size: 16px;
     padding: 30px 20px 100px 20px;
     margin: 100px 20px 0 20px;
     border: 1px solid $nav-color;
     border-bottom: none;
     h2 {
         margin: 30px 0;
+        font-size: 22px;
     }
     p {
         line-height: 1.5em;
+        font-size: 16px;
     }
 }
 .my-form {
     background-color: $form-color;
-    font-size: 16px;
     margin: 0 20px;
     border: 1px solid $nav-color;
     border-top: none;
@@ -106,6 +106,7 @@ section p {
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
+    font-size: 16px;
     margin: 0 20px;
     label {
         margin-bottom: 10px;
@@ -135,10 +136,10 @@ section p {
     min-height: 200px;
     resize: none;
 }
-.button-row input {
+input[type="submit"] {
+    cursor: pointer;
     color: whitesmoke;
     display: block;
-    cursor: pointer;
     font-weight: bolder;
     text-align: center;
     margin: 0 auto;
@@ -151,8 +152,8 @@ section p {
         opacity: 70%;
     }
 }
-div #mypopover[popover]:popover-open {
-    display: block;
+div #mypopover[popover] {
+    position: relative;
     color: $footer-color;
     background-color: $coloured-light-grey-1;
     padding: 10px;
@@ -231,6 +232,7 @@ footer {
 }
 .content button,
 .two-buttons button {
+    cursor: pointer;
     display: block;
     background-color: darken($coloured-light-grey-1, 30%);
     margin: 30px auto;
@@ -264,7 +266,17 @@ video {
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+        background-color: darken($coloured-light-grey-1, 15%);
+        height: 8px;
+        cursor: pointer;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: darken($coloured-light-grey-1, 30%);
+    }
+    &::-webkit-scrollbar-button {
+        background-color: lighten($nav-color, 15%);
+    }
 }
 .libri {
     scroll-snap-align: start;
@@ -289,36 +301,37 @@ video {
     p:last-of-type {
         font-family: "Nunito Sans", sans-serif;
         font-weight: normal;
-        font-size: 11px;
-        margin: 35px 20px;
+        font-size: 12px;
+        margin: 30px 22px;
     }
 }   
 .merch-buttons {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 20px;
-        button {
+    margin-bottom: 10px;
+    button {
+        cursor: pointer;
         padding: 5px 15px;
         border-radius: 15px;
         border: 1px solid $nav-color;
         &:first-of-type {
             background-color: darken($coloured-light-grey-1, 30%);
-        &:hover {
-            background-color: darken($coloured-light-grey-1, 40%);
+            &:hover {
+                background-color: darken($coloured-light-grey-1, 40%);
             }
         }
         &:last-of-type {
             background-color: lighten($footer-color, 10%);
-        &:hover {
-            opacity: 40%;
+            &:hover {
+                opacity: 40%;
             }
         }
         a {
-        text-decoration: none;
-        color:whitesmoke;
-        &:hover {
-            color: whitesmoke;
-        }
+            text-decoration: none;
+            color:whitesmoke;
+                &:hover {
+                    color: whitesmoke;
+                }  
         }
     }
 }

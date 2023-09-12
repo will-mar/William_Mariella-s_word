@@ -69,7 +69,7 @@ section a:hover:visited {
 h1 {
   font-style: italic;
   text-align: center;
-  font-size: 25px;
+  font-size: 24px;
   line-height: 1.7em;
   margin-top: 70px;
   margin-bottom: 30px;
@@ -85,7 +85,6 @@ section p {
 .form-header {
   background-color: #ecccef;
   text-align: center;
-  font-size: 16px;
   padding: 30px 20px 100px 20px;
   margin: 100px 20px 0 20px;
   border: 1px solid #73878a;
@@ -93,14 +92,15 @@ section p {
 }
 .form-header h2 {
   margin: 30px 0;
+  font-size: 22px;
 }
 .form-header p {
   line-height: 1.5em;
+  font-size: 16px;
 }
 
 .my-form {
   background-color: #ecccef;
-  font-size: 16px;
   margin: 0 20px;
   border: 1px solid #73878a;
   border-top: none;
@@ -111,6 +111,7 @@ section p {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
+  font-size: 16px;
   margin: 0 20px;
 }
 .form-row label {
@@ -145,10 +146,10 @@ section p {
   resize: none;
 }
 
-.button-row input {
+input[type=submit] {
+  cursor: pointer;
   color: whitesmoke;
   display: block;
-  cursor: pointer;
   font-weight: bolder;
   text-align: center;
   margin: 0 auto;
@@ -158,12 +159,12 @@ section p {
   border: 1px solid #2c1b2e;
   border-radius: 20px;
 }
-.button-row input:hover {
+input[type=submit]:hover {
   opacity: 70%;
 }
 
-div #mypopover[popover]:popover-open {
-  display: block;
+div #mypopover[popover] {
+  position: relative;
   color: #2c1b2e;
   background-color: #f3dff5;
   padding: 10px;
@@ -251,6 +252,7 @@ footer .social img:first-of-type {
 
 .content button,
 .two-buttons button {
+  cursor: pointer;
   display: block;
   background-color: #c76ad1;
   margin: 30px auto;
@@ -288,7 +290,17 @@ video {
   overflow-x: scroll;
   overflow-y: hidden;
   scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+}
+.x-scroller::-webkit-scrollbar {
+  background-color: #dda5e3;
+  height: 8px;
+  cursor: pointer;
+}
+.x-scroller::-webkit-scrollbar-thumb {
+  background-color: #c76ad1;
+}
+.x-scroller::-webkit-scrollbar-button {
+  background-color: #9dabad;
 }
 
 .libri {
@@ -317,16 +329,17 @@ video {
 .lyrics p:last-of-type {
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
-  font-size: 11px;
-  margin: 35px 20px;
+  font-size: 12px;
+  margin: 30px 22px;
 }
 
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .merch-buttons button {
+  cursor: pointer;
   padding: 5px 15px;
   border-radius: 15px;
   border: 1px solid #73878a;
