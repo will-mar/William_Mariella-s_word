@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Noto+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 * {
@@ -9,7 +9,7 @@
 
 body {
   background-color: #f3dff5;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins";
 }
 
 nav {
@@ -18,7 +18,7 @@ nav {
   align-items: center;
   position: fixed;
   justify-content: space-between;
-  font-size: calc(13px + 0.1vw);
+  font-size: calc(12px + 0.2vw);
   top: 0;
   width: 100%;
   height: 50px;
@@ -82,6 +82,14 @@ section p {
   line-height: 2em;
 }
 
+.synopsis {
+  font-style: italic;
+  color: #73878a;
+  border-bottom: 1px solid #73878a;
+  border-right: 1px solid #73878a;
+  padding-right: 3%;
+}
+
 .form-header {
   background-color: #ecccef;
   text-align: center;
@@ -109,16 +117,15 @@ section p {
 .form-row {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: center;
   font-size: calc(14px + 0.2vw);
 }
 .form-row label {
-  text-align: right;
   width: 200px;
   margin-bottom: 10px;
-  margin-right: 18px;
+  margin-left: 20px;
 }
 
 .form-row input,
@@ -197,16 +204,14 @@ footer .social {
   display: flex;
   flex-flow: wrap row;
   justify-content: space-between;
+  align-items: center;
 }
 footer .social p {
+  align-self: flex-start;
   margin-right: auto;
 }
-footer .social img {
-  width: 30px;
-  height: 30px;
+footer .social a img {
   margin-bottom: 10px;
-}
-footer .social img:first-of-type {
   margin-right: 25px;
 }
 
@@ -223,6 +228,7 @@ footer .social img:first-of-type {
 }
 .bio h2 {
   text-align: center;
+  font-size: calc(19px + 0.3vw);
   padding: 70px 20px 30px 20px;
 }
 
@@ -234,7 +240,7 @@ footer .social img:first-of-type {
 .bio figure figcaption {
   font-style: italic;
   text-align: left;
-  font-size: calc(11px + 0.2vw);
+  font-size: calc(12px + 0.05vw);
   padding: 10px 15px 5px 15px;
 }
 
@@ -324,24 +330,24 @@ video {
   width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
-  font-family: "Caveat", cursive;
+  font-family: "Caveat";
   font-weight: bold;
 }
 .lyrics p {
   margin-bottom: -25px;
-  font-size: calc(16px + 0.1vw);
+  font-size: 17px;
 }
 .lyrics p:last-of-type {
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
-  font-size: calc(10px + 0.1vw);
+  font-size: 12px;
   margin: 30px 22px;
 }
 
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 .merch-buttons button {
   cursor: pointer;
