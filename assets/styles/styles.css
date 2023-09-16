@@ -18,7 +18,7 @@ nav {
   align-items: center;
   position: fixed;
   justify-content: space-between;
-  font-size: calc(12px + 0.2vw);
+  font-size: calc(13px + 0.2vw);
   top: 0;
   width: 100%;
   height: 50px;
@@ -77,16 +77,16 @@ h1 {
 }
 
 section p {
-  font-size: calc(14px + 0.2vw);
+  font-size: calc(15px + 0.2vw);
   margin: 20px;
   line-height: 2em;
 }
 
 .synopsis {
   font-style: italic;
-  color: #73878a;
-  border-bottom: 1px solid #73878a;
-  border-right: 1px solid #73878a;
+  color: #455152;
+  border-bottom: 1px solid #67797c;
+  border-right: 1px solid #67797c;
   padding-right: 3%;
 }
 
@@ -104,7 +104,7 @@ section p {
 }
 .form-header p {
   line-height: 1.5em;
-  font-size: calc(14px + 0.2vw);
+  font-size: calc(15px + 0.2vw);
 }
 
 .my-form {
@@ -120,7 +120,7 @@ section p {
   flex-direction: row-reverse;
   align-items: flex-start;
   justify-content: center;
-  font-size: calc(14px + 0.2vw);
+  font-size: calc(15px + 0.2vw);
 }
 .form-row label {
   width: 200px;
@@ -197,7 +197,7 @@ footer {
   margin-top: 100px;
 }
 footer p {
-  font-size: calc(11px + 0.1vw);
+  font-size: calc(11.5px + 0.1vw);
   margin: 7px 15px 7px 15px;
 }
 footer .social {
@@ -245,7 +245,7 @@ footer .social a img {
 }
 
 .content ul {
-  font-size: calc(14px + 0.2vw);
+  font-size: calc(15px + 0.2vw);
   padding: 15px 10px 0 35px;
   line-height: 1.8em;
   list-style-type: circle;
@@ -335,7 +335,7 @@ video {
 }
 .lyrics p {
   margin-bottom: -25px;
-  font-size: 17px;
+  font-size: 18px;
 }
 .lyrics p:last-of-type {
   font-family: "Nunito Sans", sans-serif;
@@ -347,7 +347,7 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
 }
 .merch-buttons button {
   cursor: pointer;
