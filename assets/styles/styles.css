@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f3dff5;
+  background-color: #f3dff5 !important;
   font-family: "PT Sans";
 }
 
@@ -70,7 +70,7 @@ h1 {
   font-style: italic;
   text-align: center;
   font-size: calc(22px + 0.5vw);
-  line-height: 1.7em;
+  line-height: 1.5em;
   margin-top: 70px;
   margin-bottom: 30px;
   padding: 0 20px;
@@ -78,13 +78,13 @@ h1 {
 
 section p {
   font-size: calc(15px + 0.35vw);
-  margin: 20px;
-  line-height: 2em;
+  margin: 10px 20px 30px 20px;
+  line-height: 1.8em;
 }
 
 .synopsis {
   font-style: italic;
-  color: #455152;
+  color: #161a1b;
   border-bottom: 1px solid #67797c;
   border-right: 1px solid #67797c;
   padding-right: 3%;
@@ -174,19 +174,12 @@ input[type=submit]:hover {
   opacity: 70%;
 }
 
-div #mypopover[popover] {
-  position: relative;
-  color: #2c1b2e;
-  background-color: #f3dff5;
+.popover {
+  text-align: center;
+  background-color: #dfcde1;
   padding: 10px;
-  border-radius: 10px;
-  border: 1px solid #88548e;
-  z-index: 3;
-}
-
-div #mypopover[popover]::backdrop {
-  -webkit-backdrop-filter: blur(2px);
-          backdrop-filter: blur(2px);
+  line-height: 2em;
+  border: 1px solid #2c1b2e;
 }
 
 footer {
@@ -336,14 +329,17 @@ video {
   font-weight: bold;
 }
 .lyrics p {
-  margin-bottom: -25px;
+  margin-bottom: -11px;
   font-size: 17.8px;
+}
+.lyrics p:first-of-type {
+  margin-top: 23px;
 }
 .lyrics p:last-of-type {
   font-family: "Nunito Sans", sans-serif;
   font-weight: normal;
   font-size: 12px;
-  margin: 30px 22px;
+  margin: 20px 0 35px 20px;
 }
 
 .merch-buttons {

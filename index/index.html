@@ -25,6 +25,8 @@
         <meta property="og:type" content="website"/>
         <meta property="og:image" content=""/>
         <meta name="robot" content="index, follow"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
         <script type="text/javascript">
             (function() {
@@ -48,6 +50,14 @@
             });
         }
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+            var popoverList = popoverTriggerList.map(function(element){
+                return new bootstrap.Popover(element);
+            });
+        });
+        </script>
     </head>
     <body>
         <header>
@@ -128,8 +138,9 @@
                     <label for="message">Vorresti dirmi qualcosa in più?</label>
                     <textarea id="message" name="message"></textarea>
                 </div>
-                <input type="submit" popovertarget="mypopover" popovertargetaction="show" value="Invia"/>
-                <div popover open id="mypopover"><p>Messaggio inviato</p></div>
+                <input type="submit" value="Invia" data-bs-toggle="popover" data-bs-trigger="focus"
+                data-bs-placement="bottom" title="Messaggio inviato!"
+                data-bs-content="Verrai contattato al più presto possibile"/>
             </form>
         </div>
         <footer>

@@ -11,8 +11,8 @@ $footer-color: #2c1b2e;
     box-sizing: border-box;
 }
 body {
-    background-color: $coloured-light-grey-1;
-    font-family: "PT Sans",
+    background-color: $coloured-light-grey-1 !important;
+    font-family: "PT Sans";
 }
 nav {
     background-color: $nav-color;
@@ -69,19 +69,19 @@ h1 {
     font-style: italic;
     text-align: center;
     font-size: calc(22px + 0.5vw);
-    line-height: 1.7em;
+    line-height: 1.5em;
     margin-top: 70px;
     margin-bottom: 30px;
     padding: 0 20px;
 }
 section p {
     font-size: calc(15px + 0.35vw);
-    margin: 20px;
-    line-height: 2em;
+    margin: 10px 20px 30px 20px;
+    line-height: 1.8em;
 }
 .synopsis {
     font-style: italic;
-    color: darken($nav-color, 20%);
+    color: darken($nav-color, 40%);
     border-bottom: 1px solid darken($nav-color, 5%);
     border-right: 1px solid darken($nav-color, 5%);
     padding-right: 3%;
@@ -162,17 +162,12 @@ input[type="submit"] {
         opacity: 70%;
     }
 }
-div #mypopover[popover] {
-    position: relative;
-    color: $footer-color;
-    background-color: $coloured-light-grey-1;
+.popover {
+    text-align: center;
+    background-color: lighten($footer-color, 70%);
     padding: 10px;
-    border-radius: 10px;
-    border: 1px solid lighten($footer-color, 30%);
-    z-index: 3;
-}
-div #mypopover[popover]::backdrop {
-    backdrop-filter: blur(2px);
+    line-height: 2em;
+    border: 1px solid $footer-color;
 }
 footer {
     background-color: $footer-color;
@@ -307,14 +302,17 @@ video {
     font-family: "Caveat";
     font-weight: bold;
     p {
-        margin-bottom: -25px;
+        margin-bottom: -11px;
         font-size: 17.8px;
+    }
+    p:first-of-type {
+        margin-top: 23px;
     }
     p:last-of-type {
         font-family: "Nunito Sans", sans-serif;
         font-weight: normal;
         font-size: 12px;
-        margin: 30px 22px;
+        margin: 20px 0 35px 20px;
     }
 }   
 .merch-buttons {
