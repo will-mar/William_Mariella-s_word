@@ -131,8 +131,7 @@ section p {
     border-radius: 5px;
     padding: 7px;
 }
-.form-row input[type="text"]:invalid,
-.form-row input[type="email"]:invalid {
+.form-row input[type=email]:invalid {
     border: 2px solid crimson;
     color: crimson;
     box-shadow: none;
@@ -146,7 +145,7 @@ section p {
     min-height: 200px;
     width: 190px;
 }
-input[type="submit"] {
+input[type=submit] {
     cursor: pointer;
     color: whitesmoke;
     display: block;
@@ -175,7 +174,7 @@ footer {
     position: relative;
     align-content: center;
     bottom: 0;
-    padding-top: 3px;
+    padding-top: 1px;
     margin-top: 70px;
     p {
         font-size: calc(11.5px + 0.07vw);
@@ -266,6 +265,7 @@ footer {
 video {
     max-width: 100%;
     max-height: 13%;
+    margin-bottom: 30px;
 }
 .x-scroller {
     display: flex;
