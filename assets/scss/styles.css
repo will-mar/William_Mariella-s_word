@@ -10,6 +10,8 @@
 body {
   background-color: #f3dff5 !important;
   font-family: "PT Sans";
+  font-kerning: none;
+  letter-spacing: 0.3px;
 }
 
 nav {
@@ -79,7 +81,7 @@ h1 {
 section p {
   font-size: calc(15px + 0.35vw);
   margin: 10px 20px 30px 20px;
-  line-height: 1.8em;
+  line-height: 1.7em;
 }
 
 .synopsis {
@@ -241,7 +243,7 @@ footer .social a img {
 .content ul {
   font-size: calc(15px + 0.35vw);
   padding: 15px 10px 0 35px;
-  line-height: 1.8em;
+  line-height: 1.7em;
   list-style-type: circle;
 }
 .content ul ul:last-of-type {
@@ -331,6 +333,7 @@ video {
 .lyrics p {
   margin-bottom: -11px;
   font-size: 17.8px;
+  letter-spacing: 0.07px;
 }
 .lyrics p:first-of-type {
   margin-top: 23px;
@@ -345,7 +348,7 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 20px;
+  margin-bottom: 33px;
 }
 .merch-buttons button {
   cursor: pointer;

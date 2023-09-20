@@ -38,4 +38,9 @@
   .bio figure img {
     margin: 0 100%;
   }
+  .two-buttons {
+    display: flex;
+    flex-wrap: wrap row;
+    justify-items: space-between;
+  }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

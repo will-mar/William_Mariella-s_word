@@ -1,14 +1,14 @@
 @media only screen and (min-width: 960px) {
   nav a picture {
-    margin-left: calc(15vw + 0.7em);
+    margin-left: calc(13vw + 0.3em);
   }
   nav ul {
-    margin-right: calc(13vw + 1.5em);
+    margin-right: calc(11vw + 1em);
   }
   .page,
   .footer-content {
     display: block;
-    width: 100vh;
+    width: 110vh;
     margin: 0 auto;
   }
   .page-model-2 {
