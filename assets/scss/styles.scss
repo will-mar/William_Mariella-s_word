@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
-$nav-color: #73878a;
-$coloured-light-grey-1: #f3dff5;
-$form-color: darken($coloured-light-grey-1, 5%);
+$nav-color: #778c91;
+$coloured-light-grey-1: #e9d6ec;
+$form-color: darken($coloured-light-grey-1, 10%);
 $footer-color: #2c1b2e;
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-html {
-    touch-action: manipulation;
-}
 body {
     background-color: $coloured-light-grey-1;
     font-family: "PT Sans";
-    font-kerning: none;
     letter-spacing: 0.3px;
 }
 nav {
@@ -213,12 +209,14 @@ footer {
     display: block;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    min-height: max-content;
     h2 {
         text-align: center;
         font-size: calc(20px + 0.3vw);
         padding: 70px 20px 30px 20px;
     }
+}
+.bio .content:first-of-type {
+    padding-bottom: max-content;
 }
 .bio figure {
     display: flex;

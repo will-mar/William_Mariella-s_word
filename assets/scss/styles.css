@@ -7,19 +7,14 @@
   box-sizing: border-box;
 }
 
-html {
-  touch-action: manipulation;
-}
-
 body {
-  background-color: #f3dff5;
+  background-color: #e9d6ec;
   font-family: "PT Sans";
-  font-kerning: none;
   letter-spacing: 0.3px;
 }
 
 nav {
-  background-color: #73878a;
+  background-color: #778c91;
   display: flex;
   align-items: center;
   position: fixed;
@@ -96,18 +91,18 @@ section p {
 
 .synopsis {
   font-style: italic;
-  color: #161a1b;
-  border-bottom: 1px solid #67797c;
-  border-right: 1px solid #67797c;
+  color: #1b2021;
+  border-bottom: 1px solid #6b7f84;
+  border-right: 1px solid #6b7f84;
   padding-right: 3%;
 }
 
 .form-header {
-  background-color: #ecccef;
+  background-color: #d6b3dc;
   text-align: center;
   padding: 30px 20px 100px 20px;
   margin: 100px 20px 0 20px;
-  border: 1px solid #73878a;
+  border: 1px solid #778c91;
   border-bottom: none;
 }
 .form-header h2 {
@@ -120,10 +115,10 @@ section p {
 }
 
 .my-form {
-  background-color: #ecccef;
+  background-color: #d6b3dc;
   margin: 0 20px;
   margin-bottom: 100px;
-  border: 1px solid #73878a;
+  border: 1px solid #778c91;
   border-top: none;
 }
 
@@ -146,7 +141,7 @@ section p {
 .form-row textarea {
   font-family: "Nunito Sans", sans-serif;
   margin-bottom: 60px;
-  border: 1px solid #73878a;
+  border: 1px solid #778c91;
   border-radius: 5px;
   padding: 7px;
 }
@@ -177,7 +172,7 @@ input[type=submit] {
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 10px 50px;
-  background-color: #73878a;
+  background-color: #778c91;
   border: 1px solid #2c1b2e;
   border-radius: 20px;
 }
@@ -230,13 +225,15 @@ footer .social a img {
   display: block;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  min-height: -moz-max-content;
-  min-height: max-content;
 }
 .bio h2 {
   text-align: center;
   font-size: calc(20px + 0.3vw);
   padding: 70px 20px 30px 20px;
+}
+
+.bio .content:first-of-type {
+  padding-bottom: max-content;
 }
 
 .bio figure {
@@ -272,15 +269,15 @@ footer .social a img {
 .two-buttons button {
   cursor: pointer;
   display: block;
-  background-color: #c76ad1;
+  background-color: #b16dbc;
   margin: 30px auto;
   padding: 5px 15px;
   border-radius: 15px;
-  border: 1px solid #73878a;
+  border: 1px solid #778c91;
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #9833a2;
+  background-color: #7c3e85;
 }
 .content button a,
 .two-buttons button a {
@@ -311,15 +308,15 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #dda5e3;
+  background-color: #cda2d4;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #c76ad1;
+  background-color: #b16dbc;
 }
 .x-scroller::-webkit-scrollbar-button {
-  background-color: #9dabad;
+  background-color: #a1b0b3;
 }
 
 .libri {
@@ -366,13 +363,13 @@ video {
   cursor: pointer;
   padding: 5px 15px;
   border-radius: 15px;
-  border: 1px solid #73878a;
+  border: 1px solid #778c91;
 }
 .merch-buttons button:first-of-type {
-  background-color: #c76ad1;
+  background-color: #b16dbc;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #b944c4;
+  background-color: #9c4ea8;
 }
 .merch-buttons button:last-of-type {
   background-color: #4b2e4e;

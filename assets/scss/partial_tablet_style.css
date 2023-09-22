@@ -1,27 +1,4 @@
-@media only screen and (min-width: 400px) and (max-width: 599px) {
-  nav a picture {
-    margin-left: calc(2vw + 0.2em);
-  }
-  nav ul {
-    margin-right: calc(1vw + 1em);
-  }
-  .page,
-  .page-model-2,
-  .footer-content {
-    display: block;
-    width: 60vh;
-    margin: 0 auto;
-  }
-  .bio figure img {
-    margin: 0 100%;
-  }
-  video {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-  }
-}
-@media only screen and (min-width: 600px) and (max-width: 959px) {
+@media only screen and (min-width: 400px) and (max-width: 959px) {
   nav a picture {
     margin-left: calc(6vw - 1em);
   }
