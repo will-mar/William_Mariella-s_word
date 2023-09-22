@@ -10,6 +10,9 @@ $footer-color: #2c1b2e;
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    touch-action: manipulation;
+}
 body {
     background-color: $coloured-light-grey-1;
     font-family: "PT Sans";
