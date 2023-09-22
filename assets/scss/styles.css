@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+html {
+  touch-action: manipulation;
+}
+
 body {
   background-color: #f3dff5;
   font-family: "PT Sans";
@@ -226,6 +230,8 @@ footer .social a img {
   display: block;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  min-height: -moz-max-content;
+  min-height: max-content;
 }
 .bio h2 {
   text-align: center;
