@@ -6,7 +6,17 @@
         width: 120vh;
         margin: 0 auto;
     }
-    .lyrics,
+    .libri {
+        display: block;
+        justify-items: center;
+        img {
+            float: left;
+            margin-left: 300px;
+        }
+        .lyrics {
+            padding: none;
+        }
+    }
     .merch-buttons {
         padding: 40px;
     }
