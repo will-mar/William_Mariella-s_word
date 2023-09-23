@@ -330,7 +330,7 @@ video {
   scroll-snap-align: start;
   height: 100%;
   width: 100%;
-  padding-top: 100px;
+  padding: 100px 30px 30px 30px;
 }
 .libri img {
   display: block;
@@ -345,7 +345,6 @@ video {
   margin: 0 auto;
   font-family: "Caveat";
   font-weight: bold;
-  padding: 30px;
 }
 .lyrics p {
   margin-bottom: -30px;
@@ -365,7 +364,6 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  padding: 30px;
   margin-bottom: 30px;
 }
 .merch-buttons button {
