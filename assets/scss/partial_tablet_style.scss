@@ -6,10 +6,9 @@
         width: 120vh;
         margin: 0 auto;
     }
-    .two-buttons {
-        display: flex;
-        flex-wrap: wrap row;
-        justify-items: space-between;
-        }
+    .lyrics,
+    .merch-buttons {
+        padding: 40px;
     }
 
+}
