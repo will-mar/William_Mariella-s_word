@@ -317,6 +317,7 @@ video {
     margin: 0 auto;
     font-family: "Caveat";
     font-weight: bold;
+    padding: 20px;
     p {
         margin-bottom: -30px;
         font-size: 17px;
@@ -335,6 +336,7 @@ video {
 .merch-buttons {
     display: flex;
     justify-content: space-evenly;
+    padding: 20px;
     margin-bottom: 30px;
     button {
         cursor: pointer;
