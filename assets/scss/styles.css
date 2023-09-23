@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 * {
@@ -8,9 +8,17 @@
 }
 
 body {
-  background-color: #e9d6ec;
-  font-family: "PT Sans";
-  letter-spacing: 0.3px;
+  background-color: #dfcee2;
+  font-family: "Roboto";
+  letter-spacing: 0.8px;
+}
+
+.page,
+.page-model-2,
+.footer-content {
+  display: block;
+  width: 90%;
+  margin: 0 auto;
 }
 
 nav {
@@ -70,7 +78,7 @@ section a:hover:visited {
 h1 {
   font-style: italic;
   text-align: center;
-  font-size: calc(22px + 0.5vw);
+  font-size: 22px;
   line-height: 1.5em;
   margin-top: 70px;
   margin-bottom: 30px;
@@ -84,7 +92,7 @@ h1 {
 }
 
 section p {
-  font-size: calc(15px + 0.35vw);
+  font-size: 16px;
   margin: 10px 20px 30px 20px;
   line-height: 1.7em;
 }
@@ -98,7 +106,7 @@ section p {
 }
 
 .form-header {
-  background-color: #d6b3dc;
+  background-color: #caaecf;
   text-align: center;
   padding: 30px 20px 100px 20px;
   margin: 100px 20px 0 20px;
@@ -115,7 +123,7 @@ section p {
 }
 
 .my-form {
-  background-color: #d6b3dc;
+  background-color: #caaecf;
   margin: 0 20px;
   margin-bottom: 100px;
   border: 1px solid #778c91;
@@ -232,14 +240,11 @@ footer .social a img {
   padding: 70px 20px 30px 20px;
 }
 
-.bio .content:first-of-type {
-  padding-bottom: max-content;
-}
-
 .bio figure {
   display: flex;
-  flex-flow: wrap row;
-  justify-content: center;
+  flex-flow: wrap column;
+  justify-items: center;
+  align-items: center;
 }
 .bio figure figcaption {
   font-style: italic;
@@ -269,7 +274,7 @@ footer .social a img {
 .two-buttons button {
   cursor: pointer;
   display: block;
-  background-color: #b16dbc;
+  background-color: #a06ea9;
   margin: 30px auto;
   padding: 5px 15px;
   border-radius: 15px;
@@ -277,7 +282,7 @@ footer .social a img {
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #7c3e85;
+  background-color: #68426f;
 }
 .content button a,
 .two-buttons button a {
@@ -308,12 +313,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #cda2d4;
+  background-color: #c09ec6;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #b16dbc;
+  background-color: #a06ea9;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #a1b0b3;
@@ -348,7 +353,7 @@ video {
   margin-top: 23px;
 }
 .lyrics p:last-of-type {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Roboto";
   font-weight: normal;
   font-size: 12px;
   margin: 20px 0 35px 20px;
@@ -366,10 +371,10 @@ video {
   border: 1px solid #778c91;
 }
 .merch-buttons button:first-of-type {
-  background-color: #b16dbc;
+  background-color: #a06ea9;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #9c4ea8;
+  background-color: #86558f;
 }
 .merch-buttons button:last-of-type {
   background-color: #4b2e4e;

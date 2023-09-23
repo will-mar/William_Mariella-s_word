@@ -1,4 +1,4 @@
-@media only screen and (min-width: 400px) and (max-width: 959px) {
+@media only screen and (min-width: 769px) and (max-width: 991px) {
     nav a picture {
         margin-left: calc(6vw - 1em);
     }
@@ -9,11 +9,14 @@
     .page-model-2,
     .footer-content {
         display: block;
-        width: 90vh;
+        width: 50vh;
         margin: 0 auto;
     }
-    .bio figure img {
-        margin: 0 100%;
+    .bio figure {
+        display: flex;
+        flex-flow: wrap column;
+        justify-items: center;
+        align-items: center;
     }
     .two-buttons {
         display: flex;

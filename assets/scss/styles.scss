@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 $nav-color: #778c91;
-$coloured-light-grey-1: #e9d6ec;
-$form-color: darken($coloured-light-grey-1, 10%);
+$coloured-light-grey-1: #dfcee2;
 $footer-color: #2c1b2e;
 * {
     padding: 0;
@@ -12,8 +11,15 @@ $footer-color: #2c1b2e;
 }
 body {
     background-color: $coloured-light-grey-1;
-    font-family: "PT Sans";
-    letter-spacing: 0.3px;
+    font-family: "Roboto";
+    letter-spacing: 0.8px;
+}
+.page,
+.page-model-2,
+.footer-content {
+        display: block;
+        width: 60% !important;
+        margin: 0 auto;
 }
 nav {
     background-color: $nav-color;
@@ -69,7 +75,7 @@ section a {
 h1 {
     font-style: italic;
     text-align: center;
-    font-size: calc(22px + 0.5vw);
+    font-size: 22px;
     line-height: 1.5em;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -81,8 +87,8 @@ h1 {
     margin-bottom: 50px;
 }
 section p {
-    font-size: calc(15px + 0.35vw);
-    margin: 10px 20px 30px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
     line-height: 1.7em;
 }
 .synopsis {
@@ -93,7 +99,7 @@ section p {
     padding-right: 3%;
 }
 .form-header {
-    background-color: $form-color;
+    background-color: darken($coloured-light-grey-1, 5%);
     text-align: center;
     padding: 30px 20px 100px 20px;
     margin: 100px 20px 0 20px;
@@ -215,13 +221,11 @@ footer {
         padding: 70px 20px 30px 20px;
     }
 }
-.bio .content:first-of-type {
-    padding-bottom: max-content;
-}
 .bio figure {
     display: flex;
-    flex-flow: wrap row;
-    justify-content: center;
+    flex-flow: wrap column;
+    justify-items: center;
+    align-items: center;
     figcaption {
         font-style: italic;
         text-align: left;
@@ -319,7 +323,7 @@ video {
         margin-top: 23px;
     }
     p:last-of-type {
-        font-family: "Nunito Sans", sans-serif;
+        font-family: "Roboto";
         font-weight: normal;
         font-size: 12px;
         margin: 20px 0 35px 20px;
