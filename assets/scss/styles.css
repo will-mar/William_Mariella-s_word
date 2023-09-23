@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f3dbf3; /*get better*/
+  background-color: #f8e5f8; /*get better*/
   font-family: "Roboto"; /*get better*/
   letter-spacing: 0.8px; /*get better*/
 }
@@ -27,7 +27,7 @@ nav {
   align-items: center;
   position: fixed;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 15px;
   top: 0;
   width: 100%;
   height: 50px;
@@ -40,7 +40,7 @@ nav ul {
   list-style-type: none;
 }
 nav ul li {
-  margin-right: 1.5em;
+  margin-right: 1.7em;
 }
 
 nav a {
@@ -106,7 +106,7 @@ section p {
 }
 
 .form-header {
-  background-color: #edc8ed;
+  background-color: #f3d1f3;
   text-align: center;
   padding: 30px 20px 100px 20px;
   margin: 100px 20px 0 20px;
@@ -123,7 +123,7 @@ section p {
 }
 
 .my-form {
-  background-color: #edc8ed;
+  background-color: #f3d1f3;
   margin: 0 20px;
   margin-bottom: 100px;
   border: 1px solid #778c91;
@@ -273,7 +273,7 @@ footer .social a img {
 .two-buttons button {
   cursor: pointer;
   display: block;
-  background-color: #cd68cd;
+  background-color: #d86cd8;
   margin: 30px auto;
   padding: 5px 15px;
   border-radius: 15px;
@@ -281,7 +281,7 @@ footer .social a img {
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #9b349b;
+  background-color: #af2faf;
 }
 .content button a,
 .two-buttons button a {
@@ -312,12 +312,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #e0a2e0;
+  background-color: #e8a9e8;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #cd68cd;
+  background-color: #d86cd8;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #a1b0b3;
@@ -370,10 +370,10 @@ video {
   border: 1px solid #778c91;
 }
 .merch-buttons button:first-of-type {
-  background-color: #cd68cd;
+  background-color: #d86cd8;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #c042c0;
+  background-color: #cd44cd;
 }
 .merch-buttons button:last-of-type {
   background-color: #4b2e4e;
