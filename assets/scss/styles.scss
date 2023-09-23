@@ -18,7 +18,7 @@ body {
 .page-model-2,
 .footer-content {
         display: block;
-        width: 83%;
+        padding: 0 40px;
         margin: 0 auto;
 }
 nav {
@@ -88,7 +88,7 @@ h1 {
 }
 section p {
     font-size: 17px;
-    margin-bottom: 30px;
+    margin: 30px 0;
     line-height: 1.8em;
 }
 .synopsis {
@@ -99,17 +99,17 @@ section p {
     padding-right: 3%;
 }
 .form-header {
-    background-color: darken($coloured-light-grey-1, 10%);
     text-align: center;
-    padding: 30px 20px 100px 20px;
+    background-color: darken($coloured-light-grey-1, 10%);
+    padding: 90px 40px;
     margin: 0 auto;
     margin-top: 100px;
     width: 80%;
     border: 1px solid $nav-color;
     border-bottom: none;
     h2 {
-        margin: 30px 0;
         font-size: 22px;
+        padding-bottom: 20px;;
     }
     p {
         line-height: 1.5em;
@@ -118,35 +118,30 @@ section p {
 }
 .my-form {
     background-color: darken($coloured-light-grey-1, 10%);
+    padding: 0 40px;
     margin: 0 auto;
-    margin-bottom: 100px;
     width: 80%;
     border: 1px solid $nav-color;
     border-top: none;
 }
 .form-row {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    justify-content: center;
+    flex-flow: wrap row-reverse;
     font-size: 17px;
-    margin: 60px 20px;
-    &:first-of-type {
-        margin-top: none;
-    }
     label {
-        width: 220px;
-        margin-bottom: 10px;
-        margin-left: 35px;
+        width: 170px;
+        margin-left: 20px;
+        margin-bottom: 15px;
     }
 }
 .form-row input,
 .form-row select,
 .form-row textarea {
+    margin-bottom: 60px;
     border: 1px solid $nav-color;
     border-radius: 5px;
     padding: 7px;
+    width: 190px;
     height: 40px;
 }
 .form-row input[type=email]:invalid {
@@ -156,47 +151,45 @@ section p {
 }
 .form-row select {
     -webkit-appearance: none;
-    width: 190px;
 }
 .form-row textarea {
     padding: 10px;
     min-height: 200px;
-    width: 190px;
 }
 input[type=submit] {
     cursor: pointer;
     color: whitesmoke;
     display: block;
-    font-weight: bolder;
+    font-weight: bold;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 50px;
-    padding: 10px 50px;
+    padding: 15px 40px;
     background-color: $nav-color;
     border: 1px solid $footer-color;
-    border-radius: 20px;
+    border-radius: 30px;
     &:hover {
         opacity: 70%;
     }
 }
 .popover {
     text-align: center;
-    background-color: lighten($footer-color, 50%);
-    padding: 10px;
-    line-height: 2em;
-    border: 1px solid $footer-color;
+    background-color: lighten($footer-color, 75%);
+    border: 1px solid lighten($footer-color, 50%);
+    padding: 20px;
+    line-height: 1.8em;
+    
 }
 footer {
     background-color: $footer-color;
     color: whitesmoke;
     position: relative;
-    align-content: center;
     bottom: 0;
-    padding-top: 1px;
-    margin-top: 70px;
+    padding-top: 3px;
+    margin-top: 100px;
     p {
-        font-size: calc(11.5px + 0.07vw);
-        margin: 8px 15px 7px 15px;
+        font-size: 13px;
+        margin: 10px 15px;
     }
     .social {
         display: flex;
@@ -221,9 +214,10 @@ footer {
     display: block;
     scroll-snap-align: start;
     scroll-snap-stop: always;
+    min-height: 100vh;
     h2 {
         text-align: center;
-        font-size: calc(20px + 0.3vw);
+        font-size: 23px;
         padding: 70px 20px 30px 20px;
     }
 }
@@ -232,18 +226,18 @@ footer {
     flex-flow: wrap column;
     justify-items: center;
     align-items: center;
+    margin-bottom: 30px;
     figcaption {
         font-style: italic;
-        text-align: left;
-        font-size: calc(12.5px + 0.07vw);
-        line-height: 1.5em;
-        padding: 10px;
+        font-size: 13px;
+        line-height: 1.8em;
+        margin-top: 10px;
     }
 }
 .content ul {
-    font-size: calc(15px + 0.35vw);
-    padding: 15px 10px 0 35px;
-    line-height: 1.7em;
+    padding: 0 10px 0 30px;
+    font-size: 17px;
+    line-height: 1.8em;
     list-style-type: circle;
     ul:last-of-type {
         list-style-type: disclosure-closed; 
@@ -259,12 +253,13 @@ footer {
     cursor: pointer;
     display: block;
     background-color: darken($coloured-light-grey-1, 30%);
+    font-size: 15px;
     margin: 30px auto;
-    padding: 5px 15px;
-    border-radius: 15px;
+    padding: 8px 20px;
+    border-radius: 20px;
     border: 1px solid $nav-color;
     &:hover {
-        background-color: darken($coloured-light-grey-1, 50%);
+        background-color: darken($coloured-light-grey-1, 45%);
     }
     a {
         text-decoration: none;
@@ -282,7 +277,9 @@ footer {
     }
 }
 video {
-    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    max-width: 60%;
     max-height: 13%;
     margin-bottom: 30px;
 }
@@ -321,8 +318,8 @@ video {
     font-family: "Caveat";
     font-weight: bold;
     p {
-        margin-bottom: -11px;
-        font-size: 17.8px;
+        margin-bottom: -30px;
+        font-size: 17px;
         letter-spacing: 0.07px;
     }
     p:first-of-type {
@@ -332,13 +329,13 @@ video {
         font-family: "Roboto";
         font-weight: normal;
         font-size: 12px;
-        margin: 20px 0 35px 20px;
+        margin: 40px 0 20px 2px;
     }
 }   
 .merch-buttons {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     button {
         cursor: pointer;
         padding: 5px 15px;
@@ -347,13 +344,13 @@ video {
         &:first-of-type {
             background-color: darken($coloured-light-grey-1, 30%);
             &:hover {
-                background-color: darken($coloured-light-grey-1, 40%);
+                background-color: darken($coloured-light-grey-1, 45%);
             }
         }
         &:last-of-type {
             background-color: lighten($footer-color, 10%);
             &:hover {
-                opacity: 40%;
+                opacity: 70%;
             }
         }
         a {

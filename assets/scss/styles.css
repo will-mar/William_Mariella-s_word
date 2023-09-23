@@ -17,7 +17,7 @@ body {
 .page-model-2,
 .footer-content {
   display: block;
-  width: 83%;
+  padding: 0 40px;
   margin: 0 auto;
 }
 
@@ -93,7 +93,7 @@ h1 {
 
 section p {
   font-size: 17px;
-  margin-bottom: 30px;
+  margin: 30px 0;
   line-height: 1.8em;
 }
 
@@ -106,9 +106,9 @@ section p {
 }
 
 .form-header {
-  background-color: #edbded;
   text-align: center;
-  padding: 30px 20px 100px 20px;
+  background-color: #edbded;
+  padding: 90px 40px;
   margin: 0 auto;
   margin-top: 100px;
   width: 80%;
@@ -116,8 +116,8 @@ section p {
   border-bottom: none;
 }
 .form-header h2 {
-  margin: 30px 0;
   font-size: 22px;
+  padding-bottom: 20px;
 }
 .form-header p {
   line-height: 1.5em;
@@ -126,8 +126,8 @@ section p {
 
 .my-form {
   background-color: #edbded;
+  padding: 0 40px;
   margin: 0 auto;
-  margin-bottom: 100px;
   width: 80%;
   border: 1px solid #778c91;
   border-top: none;
@@ -135,28 +135,23 @@ section p {
 
 .form-row {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  align-items: flex-start;
-  justify-content: center;
+  flex-flow: wrap row-reverse;
   font-size: 17px;
-  margin: 60px 20px;
-}
-.form-row:first-of-type {
-  margin-top: none;
 }
 .form-row label {
-  width: 220px;
-  margin-bottom: 10px;
-  margin-left: 35px;
+  width: 170px;
+  margin-left: 20px;
+  margin-bottom: 15px;
 }
 
 .form-row input,
 .form-row select,
 .form-row textarea {
+  margin-bottom: 60px;
   border: 1px solid #778c91;
   border-radius: 5px;
   padding: 7px;
+  width: 190px;
   height: 40px;
 }
 
@@ -168,27 +163,25 @@ section p {
 
 .form-row select {
   -webkit-appearance: none;
-  width: 190px;
 }
 
 .form-row textarea {
   padding: 10px;
   min-height: 200px;
-  width: 190px;
 }
 
 input[type=submit] {
   cursor: pointer;
   color: whitesmoke;
   display: block;
-  font-weight: bolder;
+  font-weight: bold;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 50px;
-  padding: 10px 50px;
+  padding: 15px 40px;
   background-color: #778c91;
   border: 1px solid #2c1b2e;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 input[type=submit]:hover {
   opacity: 70%;
@@ -196,24 +189,23 @@ input[type=submit]:hover {
 
 .popover {
   text-align: center;
-  background-color: #b78cbc;
-  padding: 10px;
-  line-height: 2em;
-  border: 1px solid #2c1b2e;
+  background-color: #e9ddeb;
+  border: 1px solid #b78cbc;
+  padding: 20px;
+  line-height: 1.8em;
 }
 
 footer {
   background-color: #2c1b2e;
   color: whitesmoke;
   position: relative;
-  align-content: center;
   bottom: 0;
-  padding-top: 1px;
-  margin-top: 70px;
+  padding-top: 3px;
+  margin-top: 100px;
 }
 footer p {
-  font-size: calc(11.5px + 0.07vw);
-  margin: 8px 15px 7px 15px;
+  font-size: 13px;
+  margin: 10px 15px;
 }
 footer .social {
   display: flex;
@@ -239,10 +231,11 @@ footer .social a img {
   display: block;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  min-height: 100vh;
 }
 .bio h2 {
   text-align: center;
-  font-size: calc(20px + 0.3vw);
+  font-size: 23px;
   padding: 70px 20px 30px 20px;
 }
 
@@ -251,19 +244,19 @@ footer .social a img {
   flex-flow: wrap column;
   justify-items: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 .bio figure figcaption {
   font-style: italic;
-  text-align: left;
-  font-size: calc(12.5px + 0.07vw);
-  line-height: 1.5em;
-  padding: 10px;
+  font-size: 13px;
+  line-height: 1.8em;
+  margin-top: 10px;
 }
 
 .content ul {
-  font-size: calc(15px + 0.35vw);
-  padding: 15px 10px 0 35px;
-  line-height: 1.7em;
+  padding: 0 10px 0 30px;
+  font-size: 17px;
+  line-height: 1.8em;
   list-style-type: circle;
 }
 .content ul ul:last-of-type {
@@ -281,14 +274,15 @@ footer .social a img {
   cursor: pointer;
   display: block;
   background-color: #d86cd8;
+  font-size: 15px;
   margin: 30px auto;
-  padding: 5px 15px;
-  border-radius: 15px;
+  padding: 8px 20px;
+  border-radius: 20px;
   border: 1px solid #778c91;
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #af2faf;
+  background-color: #c335c3;
 }
 .content button a,
 .two-buttons button a {
@@ -307,7 +301,9 @@ footer .social a img {
 }
 
 video {
-  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 60%;
   max-height: 13%;
   margin-bottom: 30px;
 }
@@ -351,8 +347,8 @@ video {
   font-weight: bold;
 }
 .lyrics p {
-  margin-bottom: -11px;
-  font-size: 17.8px;
+  margin-bottom: -30px;
+  font-size: 17px;
   letter-spacing: 0.07px;
 }
 .lyrics p:first-of-type {
@@ -362,13 +358,13 @@ video {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 12px;
-  margin: 20px 0 35px 20px;
+  margin: 40px 0 20px 2px;
 }
 
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 33px;
+  margin-bottom: 30px;
 }
 .merch-buttons button {
   cursor: pointer;
@@ -380,13 +376,13 @@ video {
   background-color: #d86cd8;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #cd44cd;
+  background-color: #c335c3;
 }
 .merch-buttons button:last-of-type {
   background-color: #4b2e4e;
 }
 .merch-buttons button:last-of-type:hover {
-  opacity: 40%;
+  opacity: 70%;
 }
 .merch-buttons button a {
   text-decoration: none;
