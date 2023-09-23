@@ -1,10 +1,4 @@
 @media only screen and (min-width: 992px) {
-  nav a picture {
-    margin-left: calc(13vw + 0.3em);
-  }
-  nav ul {
-    margin-right: calc(11vw + 1em);
-  }
   .page,
   .footer-content {
     display: block;

@@ -8,16 +8,16 @@
 }
 
 body {
-  background-color: #dfcee2;
-  font-family: "Roboto";
-  letter-spacing: 0.8px;
+  background-color: #fcd9fc; /*get better*/
+  font-family: "Roboto"; /*get better*/
+  letter-spacing: 0.8px; /*get better*/
 }
 
 .page,
 .page-model-2,
 .footer-content {
   display: block;
-  width: 90%;
+  width: 83%;
   margin: 0 auto;
 }
 
@@ -27,7 +27,7 @@ nav {
   align-items: center;
   position: fixed;
   justify-content: space-between;
-  font-size: calc(13px + 0.3vw);
+  font-size: 14px;
   top: 0;
   width: 100%;
   height: 50px;
@@ -93,7 +93,7 @@ h1 {
 
 section p {
   font-size: 16px;
-  margin: 10px 20px 30px 20px;
+  margin-bottom: 20px;
   line-height: 1.7em;
 }
 
@@ -106,7 +106,7 @@ section p {
 }
 
 .form-header {
-  background-color: #caaecf;
+  background-color: #fac1fa;
   text-align: center;
   padding: 30px 20px 100px 20px;
   margin: 100px 20px 0 20px;
@@ -123,7 +123,7 @@ section p {
 }
 
 .my-form {
-  background-color: #caaecf;
+  background-color: #fac1fa;
   margin: 0 20px;
   margin-bottom: 100px;
   border: 1px solid #778c91;
@@ -147,7 +147,6 @@ section p {
 .form-row input,
 .form-row select,
 .form-row textarea {
-  font-family: "Nunito Sans", sans-serif;
   margin-bottom: 60px;
   border: 1px solid #778c91;
   border-radius: 5px;
@@ -190,7 +189,7 @@ input[type=submit]:hover {
 
 .popover {
   text-align: center;
-  background-color: #dfcde1;
+  background-color: #b78cbc;
   padding: 10px;
   line-height: 2em;
   border: 1px solid #2c1b2e;
@@ -274,7 +273,7 @@ footer .social a img {
 .two-buttons button {
   cursor: pointer;
   display: block;
-  background-color: #a06ea9;
+  background-color: #f14bf1;
   margin: 30px auto;
   padding: 5px 15px;
   border-radius: 15px;
@@ -282,7 +281,7 @@ footer .social a img {
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #68426f;
+  background-color: #c610c6;
 }
 .content button a,
 .two-buttons button a {
@@ -313,12 +312,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #c09ec6;
+  background-color: #f692f6;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #a06ea9;
+  background-color: #f14bf1;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #a1b0b3;
@@ -371,10 +370,10 @@ video {
   border: 1px solid #778c91;
 }
 .merch-buttons button:first-of-type {
-  background-color: #a06ea9;
+  background-color: #f14bf1;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #86558f;
+  background-color: #ed1ced;
 }
 .merch-buttons button:last-of-type {
   background-color: #4b2e4e;
