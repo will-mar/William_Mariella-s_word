@@ -1,9 +1,20 @@
 @media only screen and (min-width: 769px) and (max-width: 1199px) {
   .page,
   .page-model-2,
+  .x-scroller,
   .footer-content {
     display: block;
     width: 120vh;
     margin: 0 auto;
+  }
+  .libri {
+    display: block;
+    justify-items: center;
+    padding-left: 40px;
+  }
+  .libri img {
+    float: left;
+    padding-top: 30px;
+    padding-left: 80px;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

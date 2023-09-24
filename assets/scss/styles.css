@@ -196,7 +196,7 @@ input[type=submit]:hover {
 }
 
 footer {
-  background-color: #051f01;
+  background-color: #041801;
   color: whitesmoke;
   position: relative;
   bottom: 0;
@@ -352,7 +352,7 @@ video {
   font-weight: bold;
 }
 .lyrics p {
-  margin-bottom: -30px;
+  margin-bottom: -5px;
   font-size: 17px;
 }
 .lyrics p:first-of-type {
@@ -362,7 +362,7 @@ video {
   font-family: "Roboto";
   font-weight: normal;
   font-size: 12px;
-  margin: 40px 0 20px 2px;
+  margin: 20px 0 20px 2px;
 }
 
 .merch-buttons {
@@ -383,7 +383,7 @@ video {
   background-color: #831e98;
 }
 .merch-buttons button:last-of-type {
-  background-color: #0d5003;
+  background-color: #0c4903;
 }
 .merch-buttons button:last-of-type:hover {
   opacity: 50%;

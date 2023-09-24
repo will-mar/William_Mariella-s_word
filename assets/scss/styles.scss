@@ -3,7 +3,7 @@
 @import "partial_laptop_style.css";
 $nav-color: #7e87a5;
 $coloured-light-grey-1: #f3e1d1;
-$footer-color: #051f01;
+$footer-color: #041801;
 $shiny-button: #a827c2;
 * {
     padding: 0;
@@ -323,7 +323,7 @@ video {
     font-family: "Caveat";
     font-weight: bold;
     p {
-        margin-bottom: -30px;
+        margin-bottom: -5px;
         font-size: 17px;
     }
     p:first-of-type {
@@ -333,7 +333,7 @@ video {
         font-family: "Roboto";
         font-weight: normal;
         font-size: 12px;
-        margin: 40px 0 20px 2px;
+        margin: 20px 0 20px 2px;
     }
 }   
 .merch-buttons {
