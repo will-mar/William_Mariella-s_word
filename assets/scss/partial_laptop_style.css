@@ -31,19 +31,13 @@
   video {
     width: 50%;
   }
-  .x-scroller {
-    margin: 0 auto;
-  }
   .libri {
-    margin: 25px auto;
+    display: block;
+    justify-items: center;
+    padding-top: 150px;
   }
-  .libri figure {
+  .libri img {
     float: left;
-  }
-  .libri:last-of-type figure {
-    margin-left: 55px;
-  }
-  .merch-buttons {
-    margin-top: 110px;
+    margin-left: 300px;
   }
 }/*# sourceMappingURL=partial_laptop_style.css.map */

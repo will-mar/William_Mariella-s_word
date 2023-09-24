@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #eedac9; /*get better*/
+  background-color: #f3e1d1; /*get better*/
   font-family: "Roboto"; /*get better*/
   letter-spacing: 0.8px; /*get better*/
 }
@@ -106,7 +106,7 @@ section p {
 
 .form-header {
   text-align: center;
-  background-color: #c98a55;
+  background-color: #d99f6c;
   padding: 90px 20px;
   margin: 0 auto;
   margin-top: 100px;
@@ -124,7 +124,7 @@ section p {
 }
 
 .my-form {
-  background-color: #c98a55;
+  background-color: #d99f6c;
   margin: 0 auto;
   width: 80%;
   border: 1px solid #7e87a5;
@@ -189,7 +189,7 @@ input[type=submit]:hover {
 
 .popover {
   text-align: center;
-  background-color: #ebc2f3;
+  background-color: #f2d7f7;
   border: 1px solid #7e87a5;
   padding: 20px;
   line-height: 1.8em;
@@ -231,12 +231,12 @@ footer .social a img {
   display: block;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  min-height: 90vh;
+  min-height: 88vh;
 }
 .bio h2 {
   text-align: center;
   font-size: 23px;
-  padding: 70px 20px 30px 20px;
+  padding: 80px 20px 40px 20px;
 }
 
 .bio figure {
@@ -320,12 +320,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #dcb28f;
+  background-color: #e3b994;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #c98a55;
+  background-color: #d39258;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #abb1c4;
@@ -335,7 +335,7 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding: 100px 30px 30px 30px;
+  padding-top: 100px;
 }
 .libri img {
   display: block;
@@ -354,7 +354,6 @@ video {
 .lyrics p {
   margin-bottom: -30px;
   font-size: 17px;
-  letter-spacing: 0.07px;
 }
 .lyrics p:first-of-type {
   margin-top: 23px;
