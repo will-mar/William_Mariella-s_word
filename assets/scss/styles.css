@@ -8,21 +8,20 @@
 }
 
 body {
-  background-color: #f8e5f8; /*get better*/
+  background-color: #eedac9; /*get better*/
   font-family: "Roboto"; /*get better*/
   letter-spacing: 0.8px; /*get better*/
 }
 
 .page,
-.page-model-2,
 .footer-content {
   display: block;
-  padding: 0 40px;
+  padding: 0 5%;
   margin: 0 auto;
 }
 
 nav {
-  background-color: #778c91;
+  background-color: #7e87a5;
   display: flex;
   align-items: center;
   position: fixed;
@@ -99,20 +98,20 @@ section p {
 
 .synopsis {
   font-style: italic;
-  color: #040505;
-  border-bottom: 1px solid #48565a;
-  border-right: 1px solid #48565a;
+  color: #0f1015;
+  border-bottom: 1px solid #4e556f;
+  border-right: 1px solid #4e556f;
   padding-right: 3%;
 }
 
 .form-header {
   text-align: center;
-  background-color: #edbded;
+  background-color: #b57ed4;
   padding: 90px 40px;
   margin: 0 auto;
   margin-top: 100px;
   width: 80%;
-  border: 1px solid #778c91;
+  border: 1px solid #7e87a5;
   border-bottom: none;
 }
 .form-header h2 {
@@ -125,17 +124,17 @@ section p {
 }
 
 .my-form {
-  background-color: #edbded;
-  padding: 0 40px;
+  background-color: #b57ed4;
   margin: 0 auto;
   width: 80%;
-  border: 1px solid #778c91;
+  border: 1px solid #7e87a5;
   border-top: none;
 }
 
 .form-row {
   display: flex;
   flex-flow: wrap row-reverse;
+  justify-content: center;
   font-size: 17px;
 }
 .form-row label {
@@ -148,7 +147,7 @@ section p {
 .form-row select,
 .form-row textarea {
   margin-bottom: 60px;
-  border: 1px solid #778c91;
+  border: 1px solid #7e87a5;
   border-radius: 5px;
   padding: 7px;
   width: 190px;
@@ -179,8 +178,8 @@ input[type=submit] {
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 15px 40px;
-  background-color: #778c91;
-  border: 1px solid #2c1b2e;
+  background-color: #7e87a5;
+  border: 1px solid #051f01;
   border-radius: 30px;
 }
 input[type=submit]:hover {
@@ -189,14 +188,14 @@ input[type=submit]:hover {
 
 .popover {
   text-align: center;
-  background-color: #e9ddeb;
-  border: 1px solid #b78cbc;
+  background-color: #aefca2;
+  border: 1px solid #43f827;
   padding: 20px;
   line-height: 1.8em;
 }
 
 footer {
-  background-color: #2c1b2e;
+  background-color: #051f01;
   color: whitesmoke;
   position: relative;
   bottom: 0;
@@ -231,7 +230,7 @@ footer .social a img {
   display: block;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  min-height: 100vh;
+  min-height: 90vh;
 }
 .bio h2 {
   text-align: center;
@@ -250,18 +249,23 @@ footer .social a img {
   font-style: italic;
   font-size: 13px;
   line-height: 1.8em;
+  padding: 0 5%;
   margin-top: 10px;
 }
 
+.content {
+  padding: 0 5%;
+}
+
 .content ul {
-  padding: 0 10px 0 30px;
+  padding: 0 5%;
   font-size: 17px;
   line-height: 1.8em;
   list-style-type: circle;
 }
 .content ul ul:last-of-type {
   list-style-type: disclosure-closed;
-  margin-left: -15px;
+  padding: 0 5%;
 }
 
 .two-buttons {
@@ -273,16 +277,16 @@ footer .social a img {
 .two-buttons button {
   cursor: pointer;
   display: block;
-  background-color: #d86cd8;
+  background-color: #9f58c7;
   font-size: 15px;
   margin: 30px auto;
-  padding: 8px 20px;
+  padding: 7px 20px;
   border-radius: 20px;
-  border: 1px solid #778c91;
+  border: 1px solid #7e87a5;
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #c335c3;
+  background-color: #692e8b;
 }
 .content button a,
 .two-buttons button a {
@@ -315,21 +319,21 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #e8a9e8;
+  background-color: #dcb28f;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #d86cd8;
+  background-color: #c98a55;
 }
 .x-scroller::-webkit-scrollbar-button {
-  background-color: #a1b0b3;
+  background-color: #abb1c4;
 }
 
 .libri {
   scroll-snap-align: start;
-  height: 100%;
-  width: 100%;
+  min-height: 100%;
+  min-width: 100%;
   padding: 100px 30px 30px 30px;
 }
 .libri img {
@@ -368,21 +372,21 @@ video {
 }
 .merch-buttons button {
   cursor: pointer;
-  padding: 8px 20px;
+  padding: 7px 20px;
   border-radius: 15px;
-  border: 1px solid #778c91;
+  border: 1px solid #7e87a5;
 }
 .merch-buttons button:first-of-type {
-  background-color: #d86cd8;
+  background-color: #9f58c7;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #c335c3;
+  background-color: #692e8b;
 }
 .merch-buttons button:last-of-type {
-  background-color: #4b2e4e;
+  background-color: #0d5003;
 }
 .merch-buttons button:last-of-type:hover {
-  opacity: 70%;
+  opacity: 50%;
 }
 .merch-buttons button a {
   text-decoration: none;

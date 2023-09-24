@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
-$nav-color: #778c91;
-$coloured-light-grey-1: #f8e5f8;
-$footer-color: #2c1b2e;
+$nav-color: #7e87a5;
+$coloured-light-grey-1: #eedac9;
+$footer-color: #051f01;
+$form-color: #b57ed4;
 * {
     padding: 0;
     margin: 0;
@@ -15,10 +16,9 @@ body {
     letter-spacing: 0.8px; /*get better*/
 }
 .page,
-.page-model-2,
 .footer-content {
         display: block;
-        padding: 0 40px;
+        padding: 0 5%;
         margin: 0 auto;
 }
 nav {
@@ -100,7 +100,7 @@ section p {
 }
 .form-header {
     text-align: center;
-    background-color: darken($coloured-light-grey-1, 10%);
+    background-color: $form-color;
     padding: 90px 40px;
     margin: 0 auto;
     margin-top: 100px;
@@ -109,7 +109,7 @@ section p {
     border-bottom: none;
     h2 {
         font-size: 22px;
-        padding-bottom: 20px;;
+        padding-bottom: 20px;
     }
     p {
         line-height: 1.5em;
@@ -117,8 +117,7 @@ section p {
     }
 }
 .my-form {
-    background-color: darken($coloured-light-grey-1, 10%);
-    padding: 0 40px;
+    background-color: $form-color;
     margin: 0 auto;
     width: 80%;
     border: 1px solid $nav-color;
@@ -127,6 +126,7 @@ section p {
 .form-row {
     display: flex;
     flex-flow: wrap row-reverse;
+    justify-content: center;
     font-size: 17px;
     label {
         width: 170px;
@@ -214,7 +214,7 @@ footer {
     display: block;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    min-height: 100vh;
+    min-height: 90vh;
     h2 {
         text-align: center;
         font-size: 23px;
@@ -231,18 +231,22 @@ footer {
         font-style: italic;
         font-size: 13px;
         line-height: 1.8em;
+        padding: 0 5%;
         margin-top: 10px;
     }
 }
+.content {
+    padding: 0 5%;
+}
 .content ul {
-    padding: 0 10px 0 30px;
+    padding: 0 5%;
     font-size: 17px;
     line-height: 1.8em;
     list-style-type: circle;
     ul:last-of-type {
         list-style-type: disclosure-closed; 
-        margin-left: -15px;
-        }
+        padding: 0 5%;
+    }
 }
 .two-buttons {
     display: flex;
@@ -252,14 +256,14 @@ footer {
 .two-buttons button {
     cursor: pointer;
     display: block;
-    background-color: darken($coloured-light-grey-1, 30%);
+    background-color: darken($form-color, 10%);
     font-size: 15px;
     margin: 30px auto;
-    padding: 8px 20px;
+    padding: 7px 20px;
     border-radius: 20px;
     border: 1px solid $nav-color;
     &:hover {
-        background-color: darken($coloured-light-grey-1, 45%);
+        background-color: darken($form-color, 30%);
     }
     a {
         text-decoration: none;
@@ -302,8 +306,8 @@ video {
 }
 .libri {
     scroll-snap-align: start;
-    height: 100%;
-    width: 100%;
+    min-height: 100%;
+    min-width: 100%;
     padding: 100px 30px 30px 30px;
     img {
         display: block;
@@ -338,19 +342,19 @@ video {
     margin-bottom: 30px;
     button {
         cursor: pointer;
-        padding: 8px 20px;
+        padding: 7px 20px;
         border-radius: 15px;
         border: 1px solid $nav-color;
         &:first-of-type {
-            background-color: darken($coloured-light-grey-1, 30%);
+            background-color: darken($form-color, 10%);
             &:hover {
-                background-color: darken($coloured-light-grey-1, 45%);
+                background-color: darken($form-color, 30%);
             }
         }
         &:last-of-type {
             background-color: lighten($footer-color, 10%);
             &:hover {
-                opacity: 70%;
+                opacity: 50%;
             }
         }
         a {
