@@ -9,13 +9,11 @@
   .libri {
     display: block;
     justify-items: center;
+    padding-top: 150px;
   }
   .libri img {
     float: left;
     margin-left: 300px;
-  }
-  .libri .lyrics {
-    padding: none;
   }
   .merch-buttons {
     padding: 40px;

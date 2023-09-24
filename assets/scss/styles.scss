@@ -4,7 +4,7 @@
 $nav-color: #7e87a5;
 $coloured-light-grey-1: #eedac9;
 $footer-color: #051f01;
-$form-color: #b57ed4;
+$shiny-button: #a827c2;
 * {
     padding: 0;
     margin: 0;
@@ -88,7 +88,7 @@ h1 {
 }
 section p {
     font-size: 17px;
-    margin: 30px 0;
+    margin-bottom: 30px;
     line-height: 1.8em;
 }
 .synopsis {
@@ -100,8 +100,8 @@ section p {
 }
 .form-header {
     text-align: center;
-    background-color: $form-color;
-    padding: 90px 40px;
+    background-color: darken($coloured-light-grey-1, 30%);
+    padding: 90px 20px;
     margin: 0 auto;
     margin-top: 100px;
     width: 80%;
@@ -117,7 +117,7 @@ section p {
     }
 }
 .my-form {
-    background-color: $form-color;
+    background-color: darken($coloured-light-grey-1, 30%);
     margin: 0 auto;
     width: 80%;
     border: 1px solid $nav-color;
@@ -127,10 +127,11 @@ section p {
     display: flex;
     flex-flow: wrap row-reverse;
     justify-content: center;
+    padding: 0 30px;
     font-size: 17px;
     label {
-        width: 170px;
-        margin-left: 20px;
+        width: 200px;
+        margin-left: 15px;
         margin-bottom: 15px;
     }
 }
@@ -165,17 +166,17 @@ input[type=submit] {
     margin: 0 auto;
     margin-bottom: 50px;
     padding: 15px 40px;
-    background-color: $nav-color;
-    border: 1px solid $footer-color;
+    background-color: $shiny-button;
+    border: 1px solid darken($nav-color, 20%);
     border-radius: 30px;
     &:hover {
-        opacity: 70%;
+        background-color: lighten($shiny-button, 10%);
     }
 }
 .popover {
     text-align: center;
-    background-color: lighten($footer-color, 75%);
-    border: 1px solid lighten($footer-color, 50%);
+    background-color: lighten($shiny-button, 40%);
+    border: 1px solid $nav-color;
     padding: 20px;
     line-height: 1.8em;
     
@@ -256,14 +257,14 @@ footer {
 .two-buttons button {
     cursor: pointer;
     display: block;
-    background-color: darken($form-color, 10%);
+    background-color: $shiny-button;
     font-size: 15px;
     margin: 30px auto;
     padding: 7px 20px;
     border-radius: 20px;
     border: 1px solid $nav-color;
     &:hover {
-        background-color: darken($form-color, 30%);
+        background-color: darken($shiny-button, 10%);
     }
     a {
         text-decoration: none;
@@ -283,8 +284,8 @@ footer {
 video {
     display: block;
     margin: 0 auto;
-    max-width: 60%;
-    max-height: 13%;
+    max-width: 70%;
+    max-height: 15%;
     margin-bottom: 30px;
 }
 .x-scroller {
@@ -346,9 +347,9 @@ video {
         border-radius: 15px;
         border: 1px solid $nav-color;
         &:first-of-type {
-            background-color: darken($form-color, 10%);
+            background-color: $shiny-button;
             &:hover {
-                background-color: darken($form-color, 30%);
+                background-color: darken($shiny-button, 10%);
             }
         }
         &:last-of-type {

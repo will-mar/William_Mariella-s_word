@@ -13,10 +13,6 @@
   h1 {
     margin: 0 auto;
   }
-  .form-row {
-    flex-direction: row;
-    align-items: flex-start;
-  }
   .bio {
     min-height: 90%;
   }
@@ -25,21 +21,18 @@
     float: left;
     max-width: -moz-min-content;
     max-width: min-content;
-    margin-right: 30px;
-    margin-left: 20px;
   }
   .content {
     display: flex;
     flex-flow: nowrap column;
     justify-content: end;
-    margin-top: -20px;
+    padding: 0 -2%;
   }
   video {
     width: 50%;
   }
   .x-scroller {
     margin: 0 auto;
-    width: 120vh;
   }
   .libri {
     margin: 25px auto;

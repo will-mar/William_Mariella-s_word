@@ -92,7 +92,7 @@ h1 {
 
 section p {
   font-size: 17px;
-  margin: 30px 0;
+  margin-bottom: 30px;
   line-height: 1.8em;
 }
 
@@ -106,8 +106,8 @@ section p {
 
 .form-header {
   text-align: center;
-  background-color: #b57ed4;
-  padding: 90px 40px;
+  background-color: #c98a55;
+  padding: 90px 20px;
   margin: 0 auto;
   margin-top: 100px;
   width: 80%;
@@ -124,7 +124,7 @@ section p {
 }
 
 .my-form {
-  background-color: #b57ed4;
+  background-color: #c98a55;
   margin: 0 auto;
   width: 80%;
   border: 1px solid #7e87a5;
@@ -135,11 +135,12 @@ section p {
   display: flex;
   flex-flow: wrap row-reverse;
   justify-content: center;
+  padding: 0 30px;
   font-size: 17px;
 }
 .form-row label {
-  width: 170px;
-  margin-left: 20px;
+  width: 200px;
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 
@@ -178,18 +179,18 @@ input[type=submit] {
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 15px 40px;
-  background-color: #7e87a5;
-  border: 1px solid #051f01;
+  background-color: #a827c2;
+  border: 1px solid #4e556f;
   border-radius: 30px;
 }
 input[type=submit]:hover {
-  opacity: 70%;
+  background-color: #c043d9;
 }
 
 .popover {
   text-align: center;
-  background-color: #aefca2;
-  border: 1px solid #43f827;
+  background-color: #ebc2f3;
+  border: 1px solid #7e87a5;
   padding: 20px;
   line-height: 1.8em;
 }
@@ -277,7 +278,7 @@ footer .social a img {
 .two-buttons button {
   cursor: pointer;
   display: block;
-  background-color: #9f58c7;
+  background-color: #a827c2;
   font-size: 15px;
   margin: 30px auto;
   padding: 7px 20px;
@@ -286,7 +287,7 @@ footer .social a img {
 }
 .content button:hover,
 .two-buttons button:hover {
-  background-color: #692e8b;
+  background-color: #831e98;
 }
 .content button a,
 .two-buttons button a {
@@ -307,8 +308,8 @@ footer .social a img {
 video {
   display: block;
   margin: 0 auto;
-  max-width: 60%;
-  max-height: 13%;
+  max-width: 70%;
+  max-height: 15%;
   margin-bottom: 30px;
 }
 
@@ -377,10 +378,10 @@ video {
   border: 1px solid #7e87a5;
 }
 .merch-buttons button:first-of-type {
-  background-color: #9f58c7;
+  background-color: #a827c2;
 }
 .merch-buttons button:first-of-type:hover {
-  background-color: #692e8b;
+  background-color: #831e98;
 }
 .merch-buttons button:last-of-type {
   background-color: #0d5003;
