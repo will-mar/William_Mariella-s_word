@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import "partial_tablet_style.css";
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 @import "partial_laptop_style.css";
 * {
   padding: 0;
@@ -9,8 +8,8 @@
 
 body {
   background-color: #f3dff1;
-  font-family: "Roboto";
-  letter-spacing: 0.8px;
+  font-family: "Lato";
+  letter-spacing: 0.7px;
 }
 
 .page,
@@ -37,7 +36,7 @@ nav {
   height: 50px;
 }
 nav img {
-  margin-left: 2em;
+  margin-left: 1.5em;
 }
 nav ul {
   display: flex;
@@ -94,9 +93,9 @@ h1 {
 }
 
 section p {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 30px;
-  line-height: 1.8em;
+  line-height: 1.6em;
 }
 
 .synopsis {
@@ -118,12 +117,13 @@ section p {
   border-bottom: none;
 }
 .form-header h2 {
-  font-size: 22px;
+  font-weight: bold;
+  font-size: 23px;
   padding-bottom: 20px;
 }
 .form-header p {
-  line-height: 1.5em;
-  font-size: 18px;
+  line-height: 1.6em;
+  font-size: 20px;
 }
 
 .my-form {
@@ -139,7 +139,8 @@ section p {
   flex-flow: wrap row-reverse;
   justify-content: center;
   padding: 0 30px;
-  font-size: 17px;
+  line-height: 1.6em;
+  font-size: 18px;
 }
 .form-row label {
   width: 200px;
@@ -239,7 +240,7 @@ footer .social a img {
 .bio h2 {
   text-align: center;
   font-size: 24px;
-  padding: 80px 15px 30px 15px;
+  padding: 70px 15px 30px 15px;
 }
 
 .bio figure {
@@ -251,7 +252,7 @@ footer .social a img {
 }
 .bio figure figcaption {
   font-style: italic;
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.5em;
   padding: 0 5%;
   margin-top: 10px;
@@ -263,8 +264,9 @@ footer .social a img {
 
 .content ul {
   padding: 0 5%;
-  font-size: 18px;
-  line-height: 1.8em;
+  font-size: 20px;
+  line-height: 1.6em;
+  margin-bottom: 30px;
   list-style-type: circle;
 }
 .content ul ul:last-of-type {
@@ -354,14 +356,15 @@ video {
   font-weight: bold;
 }
 .lyrics p {
-  margin-bottom: -5px;
+  margin-bottom: -2px;
   font-size: 18px;
+  letter-spacing: 0.5px;
 }
 .lyrics p:first-of-type {
   margin-top: 23px;
 }
 .lyrics p:last-of-type {
-  font-family: "Roboto";
+  font-family: "Lato";
   font-weight: normal;
   font-size: 13px;
   margin: 20px 0 20px 2px;
