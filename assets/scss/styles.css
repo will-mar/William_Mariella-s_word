@@ -37,14 +37,14 @@ nav {
   height: 50px;
 }
 nav img {
-  margin-left: 1.3em;
+  margin-left: 2em;
 }
 nav ul {
   display: flex;
   list-style-type: none;
 }
 nav ul li {
-  margin-right: 1.7em;
+  margin-right: 1.5em;
 }
 
 nav a {
