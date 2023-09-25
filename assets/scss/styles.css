@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f3e1d1;
+  background-color: #f3dff1;
   font-family: "Roboto";
   letter-spacing: 0.8px;
 }
@@ -18,6 +18,11 @@ body {
   display: block;
   padding: 0 5%;
   margin: 0 auto;
+}
+
+img {
+  width: initial;
+  height: initial;
 }
 
 nav {
@@ -48,15 +53,13 @@ nav a {
   cursor: pointer;
 }
 nav a:hover {
-  color: lightcoral;
-  text-decoration: underline;
+  color: orangered;
 }
 nav a:visited {
   color: indigo;
 }
 nav a:hover:visited {
-  color: darkgrey;
-  text-decoration: underline;
+  color: lightgreen;
 }
 
 section a {
@@ -65,13 +68,13 @@ section a {
   cursor: pointer;
 }
 section a:hover {
-  color: lightcoral;
+  color: orangered;
 }
 section a:visited {
   color: indigo;
 }
 section a:hover:visited {
-  color: darkgrey;
+  color: olive;
 }
 
 h1 {
@@ -82,11 +85,6 @@ h1 {
   margin-top: 70px;
   margin-bottom: 30px;
   padding: 0 20px;
-}
-
-img {
-  width: initial;
-  height: initial;
 }
 
 .self-portrait img {
@@ -111,7 +109,7 @@ section p {
 
 .form-header {
   text-align: center;
-  background-color: #d99f6c;
+  background-color: #eec34b;
   padding: 90px 20px;
   margin: 0 auto;
   margin-top: 100px;
@@ -129,7 +127,7 @@ section p {
 }
 
 .my-form {
-  background-color: #d99f6c;
+  background-color: #eec34b;
   margin: 0 auto;
   width: 80%;
   border: 1px solid #7e87a5;
@@ -184,12 +182,12 @@ input[type=submit] {
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 15px 40px;
-  background-color: #a827c2;
-  border: 1px solid #4e556f;
+  background-color: #7e87a5;
+  border: 1px solid #0f1015;
   border-radius: 30px;
 }
 input[type=submit]:hover {
-  background-color: #c043d9;
+  opacity: 80%;
 }
 
 .popover {
@@ -236,7 +234,7 @@ footer .social a img {
   display: block;
   scroll-snap-align: start;
   scroll-snap-stop: always;
-  min-height: 88vh;
+  min-height: 90vh;
 }
 .bio h2 {
   text-align: center;
@@ -253,8 +251,8 @@ footer .social a img {
 }
 .bio figure figcaption {
   font-style: italic;
-  font-size: 14px;
-  line-height: 1.8em;
+  font-size: 13px;
+  line-height: 1.5em;
   padding: 0 5%;
   margin-top: 10px;
 }
@@ -325,12 +323,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #e3b994;
+  background-color: #dea7d9;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #d39258;
+  background-color: #c970c0;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #abb1c4;
@@ -372,7 +370,8 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-bottom: 30px;
+  padding: 10px;
+  margin: 30px;
 }
 .merch-buttons button {
   cursor: pointer;

@@ -2,8 +2,9 @@
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 $nav-color: #7e87a5;
-$coloured-light-grey-1: #f3e1d1;
+$coloured-light-grey-1: #f3dff1;
 $footer-color: #041801;
+$form-color: #eec34b;
 $shiny-button: #a827c2;
 * {
     padding: 0;
@@ -20,6 +21,10 @@ body {
         display: block;
         padding: 0 5%;
         margin: 0 auto;
+}
+img {
+    width: initial;
+    height: initial;
 }
 nav {
     background-color: $nav-color;
@@ -47,15 +52,13 @@ nav a {
     text-decoration: none;
     cursor: pointer;
     &:hover {
-        color: lightcoral;
-        text-decoration: underline;
+        color: orangered;
     }
     &:visited {
         color: indigo;
     }
     &:hover:visited {
-        color: darkgrey;
-        text-decoration: underline;
+        color: lightgreen;
     }
 }
 section a {
@@ -63,13 +66,13 @@ section a {
     text-decoration: underline;
     cursor: pointer;
     &:hover {
-        color: lightcoral;
+        color: orangered;
     }
     &:visited {
         color: indigo;
     }
     &:hover:visited {
-        color: darkgrey;
+        color: olive;
     }
 }
 h1 {
@@ -80,10 +83,6 @@ h1 {
     margin-top: 70px;
     margin-bottom: 30px;
     padding: 0 20px;
-}
-img {
-    width: initial;
-    height: initial;
 }
 .self-portrait img {
     display: block;
@@ -104,7 +103,7 @@ section p {
 }
 .form-header {
     text-align: center;
-    background-color: darken($coloured-light-grey-1, 25%);
+    background-color: $form-color;
     padding: 90px 20px;
     margin: 0 auto;
     margin-top: 100px;
@@ -121,7 +120,7 @@ section p {
     }
 }
 .my-form {
-    background-color: darken($coloured-light-grey-1, 25%);
+    background-color: $form-color;
     margin: 0 auto;
     width: 80%;
     border: 1px solid $nav-color;
@@ -170,11 +169,11 @@ input[type=submit] {
     margin: 0 auto;
     margin-bottom: 50px;
     padding: 15px 40px;
-    background-color: $shiny-button;
-    border: 1px solid darken($nav-color, 20%);
+    background-color: $nav-color;
+    border: 1px solid darken($nav-color, 50%);
     border-radius: 30px;
     &:hover {
-        background-color: lighten($shiny-button, 10%);
+        opacity: 80%;
     }
 }
 .popover {
@@ -218,7 +217,7 @@ footer {
     display: block;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    min-height: 88vh;
+    min-height: 90vh;
     h2 {
         text-align: center;
         font-size: 24px;
@@ -233,8 +232,8 @@ footer {
     margin-bottom: 30px;
     figcaption {
         font-style: italic;
-        font-size: 14px;
-        line-height: 1.8em;
+        font-size: 13px;
+        line-height: 1.5em;
         padding: 0 5%;
         margin-top: 10px;
     }
@@ -341,7 +340,8 @@ video {
 .merch-buttons {
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 30px;
+    padding: 10px;
+    margin: 30px;
     button {
         cursor: pointer;
         padding: 7px 20px;
