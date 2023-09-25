@@ -4,7 +4,13 @@
     .x-scroller,
     .footer-content {
         display: block;
-        width: 120vh;
+        width: 125vh;
         margin: 0 auto;
+    }
+    nav a img {
+        margin-left: 13vh;
+    }
+    nav ul li:last-of-type {
+        margin-right: 13vh;
     }
 }

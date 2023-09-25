@@ -2,13 +2,19 @@
     .page,
     .footer-content {
         display: block;
-        width: 120vh;
+        width: 130vh;
         margin: 0 auto;
     }
     .page-model-2 {
         display: block;
-        width: 150vh;
+        width: 160vh;
         margin: 0 auto;
+    }
+    nav a img {
+        margin-left: 22vh;
+    }
+    nav ul li:last-of-type {
+        margin-right: 22vh;
     }
     h1 {
         margin: 0 auto;
@@ -33,10 +39,8 @@
     .libri {
         display: block;
         justify-items: center;
-        padding-top: 150px;
         img {
             float: left;
-            margin-left: 300px;
         }
     }
 }
