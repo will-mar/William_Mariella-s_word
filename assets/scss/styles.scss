@@ -2,7 +2,7 @@
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 $nav-color: #7e87a5;
-$coloured-light-grey-1: #f3e8f2;
+$coloured-light-grey-1: #f3ddf1;
 $footer-color: #041801;
 $form-color: #eec34b;
 $shiny-button: #a827c2;
@@ -92,7 +92,7 @@ h1 {
 section p {
     font-size: 20px;
     margin-bottom: 30px;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 .synopsis {
     font-style: italic;
@@ -266,7 +266,7 @@ footer {
 .content ul {
     padding: 0 5%;
     font-size: 20px;
-    line-height: 1.5em;
+    line-height: 1.6em;
     margin-bottom: 30px;
     list-style-type: circle;
     ul:last-of-type {
@@ -343,7 +343,6 @@ video {
     font-family: "Caveat";
     font-weight: bold;
     p {
-        margin-bottom: -1px;
         font-size: 18px;
         letter-spacing: 0.5px;
     }

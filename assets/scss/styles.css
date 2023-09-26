@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f3e8f2;
+  background-color: #f3ddf1;
   font-family: "Lato";
   letter-spacing: 0.7px;
 }
@@ -96,7 +96,7 @@ h1 {
 section p {
   font-size: 20px;
   margin-bottom: 30px;
-  line-height: 1.5em;
+  line-height: 1.6em;
 }
 
 .synopsis {
@@ -287,7 +287,7 @@ footer .social a img {
 .content ul {
   padding: 0 5%;
   font-size: 20px;
-  line-height: 1.5em;
+  line-height: 1.6em;
   margin-bottom: 30px;
   list-style-type: circle;
 }
@@ -342,12 +342,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #d9b6d6;
+  background-color: #dfa4da;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #bf83b9;
+  background-color: #cb6cc2;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #abb1c4;
@@ -373,7 +373,6 @@ video {
   font-weight: bold;
 }
 .lyrics p {
-  margin-bottom: -1px;
   font-size: 18px;
   letter-spacing: 0.5px;
 }
