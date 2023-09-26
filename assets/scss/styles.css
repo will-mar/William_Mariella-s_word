@@ -248,8 +248,9 @@ footer .social a img {
 }
 
 .y-scroller {
-  scroll-snap-type: y proximity;
   overflow-y: scroll;
+  scroll-snap-type: y proximity;
+  scroll-snap-stop: always;
   justify-content: center;
 }
 
@@ -348,6 +349,7 @@ video {
 }
 .x-scroller::-webkit-scrollbar-thumb {
   background-color: #cb6cc2;
+  width: 20px;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #abb1c4;
@@ -389,8 +391,8 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  padding: 30px;
-  margin: 40px;
+  padding: 40px;
+  margin: 50px;
 }
 .merch-buttons button {
   cursor: pointer;

@@ -231,8 +231,9 @@ footer {
     }
 }
 .y-scroller {
-    scroll-snap-type: y proximity;
     overflow-y: scroll;
+    scroll-snap-type: y proximity;
+    scroll-snap-stop: always;
     justify-content: center;
 }
 .bio {
@@ -321,6 +322,7 @@ video {
     }
     &::-webkit-scrollbar-thumb {
         background-color: darken($coloured-light-grey-1, 30%);
+        width: 20px;
     }
     &::-webkit-scrollbar-button {
         background-color: lighten($nav-color, 15%);
@@ -359,8 +361,8 @@ video {
 .merch-buttons {
     display: flex;
     justify-content: space-evenly;
-    padding: 30px;
-    margin: 40px;
+    padding: 40px;
+    margin: 50px;
     button {
         cursor: pointer;
         padding: 7px 20px;
