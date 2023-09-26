@@ -8,14 +8,13 @@
     margin: 0 auto;
   }
   nav {
-    padding: 0 40px;
+    padding: 0 8vh;
   }
   .libri {
     padding-left: 20%;
+    padding-top: -30px;
   }
   .libri img {
     float: left;
-    padding-top: 40px;
-    padding-left: 20px;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */
