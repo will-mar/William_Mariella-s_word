@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #edc6fc;
+  background-color: #f4e3f8;
   font-family: "Lato";
   letter-spacing: 0.7px;
 }
@@ -343,12 +343,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #d67df8;
+  background-color: #dca6e9;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #bf35f4;
+  background-color: #c469d9;
   width: 20px;
 }
 .x-scroller::-webkit-scrollbar-button {
@@ -377,7 +377,7 @@ video {
 .lyrics p {
   font-size: 18px;
   letter-spacing: 0.5px;
-  margin-bottom: -2px;
+  margin-bottom: -1px;
 }
 .lyrics p:first-of-type {
   margin-top: 30px;
