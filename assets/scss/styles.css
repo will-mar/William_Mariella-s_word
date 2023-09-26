@@ -391,9 +391,9 @@ video {
 
 .merch-buttons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 30px;
-  margin: 40px;
+  margin: 50px;
 }
 .merch-buttons button {
   cursor: pointer;
@@ -411,7 +411,7 @@ video {
   background-color: #0c4903;
 }
 .merch-buttons button:last-of-type:hover {
-  opacity: 30%;
+  opacity: 80%;
 }
 .merch-buttons button a {
   text-decoration: none;

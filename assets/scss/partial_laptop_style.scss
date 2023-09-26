@@ -37,8 +37,13 @@
     .libri {
         display: block;
         justify-items: center;
+        margin-top: -80px;
+        padding-left: 10%;
         img {
-            float: left;
+            float: left
+        }
+        .merch-buttons {
+            padding-right: 25%;
         }
     }
 }
