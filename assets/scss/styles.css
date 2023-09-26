@@ -113,7 +113,7 @@ section .repository {
   background-color: #a827c2;
   font-size: 16px;
   padding: 7px 20px;
-  margin: 60px auto;
+  margin: 80px auto;
   border: 1px solid #7e87a5;
   border-radius: 20px;
 }
@@ -210,7 +210,7 @@ input[type=submit] {
   border-radius: 30px;
 }
 input[type=submit]:hover {
-  opacity: 80%;
+  background-color: #636c8d;
 }
 
 .popover {
