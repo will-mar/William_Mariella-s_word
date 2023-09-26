@@ -7,10 +7,15 @@
     width: 125vh;
     margin: 0 auto;
   }
-  nav a img {
-    margin-left: 13vh;
+  nav {
+    padding: 0 40px;
   }
-  nav ul li:last-of-type {
-    margin-right: 13vh;
+  .libri {
+    padding-left: 20%;
+  }
+  .libri img {
+    float: left;
+    padding-top: 40px;
+    padding-left: 20px;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */
