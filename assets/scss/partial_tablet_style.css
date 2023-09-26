@@ -12,14 +12,13 @@
   }
   .libri {
     padding-left: 10%;
-    margin-top: -170px;
+    margin-top: -140px;
   }
   .libri img {
     float: left;
     padding-top: 40px;
   }
   .libri .merch-button {
-    padding: -20px;
-    margin: -40px;
+    margin: -70px 0;
   }
 }/*# sourceMappingURL=partial_tablet_style.css.map */

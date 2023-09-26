@@ -322,17 +322,17 @@ video {
     }
     &::-webkit-scrollbar-thumb {
         background-color: darken($coloured-light-grey-1, 30%);
-        width: 20px;
     }
     &::-webkit-scrollbar-button {
         background-color: lighten($nav-color, 15%);
+        width: 20px;
     }
 }
 .libri {
     scroll-snap-align: start;
     min-height: 100%;
     min-width: 100%;
-    padding-top: 130px;
+    padding-top: 160px;
     img {
         display: block;
         margin: 0 auto;
