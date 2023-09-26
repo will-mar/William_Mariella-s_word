@@ -330,7 +330,7 @@ video {
     scroll-snap-align: start;
     min-height: 100%;
     min-width: 100%;
-    padding-top: 100px;
+    padding-top: 130px;
     img {
         display: block;
         margin: 0 auto;
@@ -343,12 +343,12 @@ video {
     font-family: "Caveat";
     font-weight: bold;
     p {
-        margin-bottom: -2px;
+        margin-bottom: -1px;
         font-size: 18px;
         letter-spacing: 0.5px;
     }
     p:first-of-type {
-        margin-top: 23px;
+        margin-top: 30px;
     }
     p:last-of-type {
         font-family: "Lato";
@@ -360,7 +360,7 @@ video {
 .merch-buttons {
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 30px;
     margin: 40px;
     button {
         cursor: pointer;

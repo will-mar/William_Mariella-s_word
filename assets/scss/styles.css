@@ -357,7 +357,7 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding-top: 100px;
+  padding-top: 130px;
 }
 .libri img {
   display: block;
@@ -373,12 +373,12 @@ video {
   font-weight: bold;
 }
 .lyrics p {
-  margin-bottom: -2px;
+  margin-bottom: -1px;
   font-size: 18px;
   letter-spacing: 0.5px;
 }
 .lyrics p:first-of-type {
-  margin-top: 23px;
+  margin-top: 30px;
 }
 .lyrics p:last-of-type {
   font-family: "Lato";
@@ -390,7 +390,7 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  padding: 20px;
+  padding: 30px;
   margin: 40px;
 }
 .merch-buttons button {
