@@ -2,7 +2,7 @@
 @import "partial_tablet_style.css";
 @import "partial_laptop_style.css";
 $nav-color: #7e87a5;
-$coloured-light-grey-1: #f3dff1;
+$coloured-light-grey-1: #f3e8f2;
 $footer-color: #041801;
 $form-color: #eec34b;
 $shiny-button: #a827c2;
@@ -23,8 +23,8 @@ body {
         margin: 0 auto;
 }
 img {
-    width: inherit;
-    height: inherit;
+    width: initial;
+    height: initial;
 }
 nav {
     background-color: $nav-color;
@@ -104,7 +104,6 @@ section p {
 section .repository {
     cursor: pointer;
     display: block;
-    color: whitesmoke;
     background-color: $shiny-button;
     font-size: 16px;
     padding: 7px 20px;

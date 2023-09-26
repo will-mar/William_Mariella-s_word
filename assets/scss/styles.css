@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #f3dff1;
+  background-color: #f3e8f2;
   font-family: "Lato";
   letter-spacing: 0.7px;
 }
@@ -21,8 +21,8 @@ body {
 }
 
 img {
-  width: inherit;
-  height: inherit;
+  width: initial;
+  height: initial;
 }
 
 nav {
@@ -110,7 +110,6 @@ section p {
 section .repository {
   cursor: pointer;
   display: block;
-  color: whitesmoke;
   background-color: #a827c2;
   font-size: 16px;
   padding: 7px 20px;
@@ -343,12 +342,12 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  background-color: #dea7d9;
+  background-color: #d9b6d6;
   height: 8px;
   cursor: pointer;
 }
 .x-scroller::-webkit-scrollbar-thumb {
-  background-color: #c970c0;
+  background-color: #bf83b9;
 }
 .x-scroller::-webkit-scrollbar-button {
   background-color: #abb1c4;

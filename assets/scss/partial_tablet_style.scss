@@ -11,11 +11,14 @@
         padding: 0 8vh;
     }
     .libri {
-       padding-left: 20%;
-       padding-top: none;
+       padding-left: 15%;
+       padding-top: -60px;
         img {
             float: left;
             padding-top: 40px;
+        }
+        .merch-button {
+            padding: none;
         }
     }
 }
