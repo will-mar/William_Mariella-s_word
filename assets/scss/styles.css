@@ -359,11 +359,11 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding-top: 160px;
+  padding-top: 180px;
 }
 .libri img {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 
 .lyrics {
@@ -411,7 +411,7 @@ video {
   background-color: #0c4903;
 }
 .merch-buttons button:last-of-type:hover {
-  opacity: 50%;
+  opacity: 30%;
 }
 .merch-buttons button a {
   text-decoration: none;
