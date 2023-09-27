@@ -356,8 +356,6 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  position: fixed;
-  bottom: 3;
   background-color: #dca6e9;
   height: 8px;
 }
@@ -373,7 +371,7 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding-top: 150px;
+  padding-top: 190px;
 }
 .libri img {
   display: block;
