@@ -102,10 +102,6 @@ h1 {
   font-size: 20px;
   line-height: 1.3em;
 }
-.self-portrait figcaption p {
-  text-align: center;
-  font-size: 23px;
-}
 
 section p {
   font-size: 20px;
@@ -377,7 +373,7 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding-top: 145px;
+  padding-top: 130px;
 }
 .libri img {
   display: block;
