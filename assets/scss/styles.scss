@@ -328,11 +328,9 @@ video {
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-snap-type: x mandatory;
-    height: calc(100% - 50px - 8px);
     &::-webkit-scrollbar {
         background-color: darken($coloured-light-grey-1, 15%);
         height: 8px;
-        cursor: pointer;
     }
     &::-webkit-scrollbar-thumb {
         background-color: darken($coloured-light-grey-1, 30%);
@@ -345,8 +343,7 @@ video {
 .libri {
     scroll-snap-align: start;
     min-height: 100%;
-    min-width: 100%;
-    padding-top: 130px;
+    padding-top: 150px;
     img {
         display: block;
         margin: 20px auto;
