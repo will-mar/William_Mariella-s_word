@@ -39,6 +39,7 @@
     display: block;
     justify-items: center;
     padding-left: 10%;
+    margin-top: -40px;
   }
   .libri img {
     float: left;
