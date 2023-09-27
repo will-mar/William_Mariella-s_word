@@ -356,6 +356,8 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
+  position: fixed;
+  bottom: 3;
   background-color: #dca6e9;
   height: 8px;
 }
@@ -404,7 +406,7 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin: 60px 0;
+  padding: 30px 0;
 }
 .merch-buttons button {
   cursor: pointer;
