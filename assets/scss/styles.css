@@ -81,26 +81,26 @@ h1 {
   font-family: "Caveat";
   text-align: center;
   font-size: 37px;
-  line-height: 1.5em;
+  line-height: 1.2em;
   margin-top: 70px;
   padding: 0 20px;
 }
 
 .self-portrait {
   display: flex;
-  flex-flow: nowrap row-reverse;
-  margin: 60px 30px;
+  flex-flow: nowrap row;
+  margin: 60px 0;
 }
 .self-portrait img {
   float: left;
-  margin-left: 30px;
+  margin-right: 20px;
 }
 .self-portrait figcaption {
   font-family: "Caveat";
   font-weight: bold;
-  text-align: right;
   align-self: center;
   font-size: 20px;
+  line-height: 1.3em;
 }
 .self-portrait figcaption p {
   text-align: center;
@@ -236,7 +236,7 @@ input[type=submit]:hover {
 }
 
 footer {
-  background-color: #041801;
+  background: linear-gradient(#147a05, #041801);
   color: whitesmoke;
   position: relative;
   bottom: 0;
@@ -377,7 +377,7 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding-top: 160px;
+  padding-top: 140px;
 }
 .libri img {
   display: block;
