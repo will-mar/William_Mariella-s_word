@@ -76,18 +76,32 @@ section a {
     }
 }
 h1 {
-    font-style: italic;
+    font-family: "Caveat";
     text-align: center;
-    font-size: 28px;
+    font-size: 37px;
     line-height: 1.5em;
     margin-top: 70px;
-    margin-bottom: 30px;
     padding: 0 20px;
 }
-.self-portrait img {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 50px;
+.self-portrait {
+    display: flex;
+    flex-flow: nowrap row-reverse;
+    margin: 60px 30px;
+    img {
+        float: left;
+        margin-left: 30px;
+    }
+    figcaption {
+        font-family: "Caveat";
+        font-weight: bold;
+        text-align: right;
+        align-self: center;
+        font-size: 20px;
+        p {
+            text-align: center;
+            font-size: 23px;
+        }
+    }
 }
 section p {
     font-size: 20px;
@@ -240,7 +254,6 @@ footer {
     display: block;
     scroll-snap-align: start;
     scroll-snap-stop: always;
-    min-height: 90vh;
     h2 {
         text-align: center;
         font-size: 23px;
@@ -296,6 +309,9 @@ footer {
         text-decoration: none;
         color: whitesmoke;
     }
+}
+.content button {
+    margin: 60px auto;
 }
 .bio:nth-of-type(3),
 .bio:nth-of-type(6) {
@@ -362,7 +378,7 @@ video {
 }   
 .merch-buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding: 20px;
     margin: 70px 0;
     button {
