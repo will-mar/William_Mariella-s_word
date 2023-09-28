@@ -356,6 +356,8 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
+  position: absolute;
+  bottom: 3;
   background-color: #dca6e9;
   height: 8px;
 }
@@ -368,6 +370,7 @@ video {
 }
 
 .libri {
+  scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
   padding-top: 180px;
@@ -379,8 +382,8 @@ video {
 
 .lyrics {
   display: block;
-  width: -moz-fit-content;
-  width: fit-content;
+  width: -moz-max-content;
+  width: max-content;
   margin: 0 auto;
   font-family: "Caveat";
   font-weight: bold;
