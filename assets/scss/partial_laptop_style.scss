@@ -28,6 +28,9 @@
         float: left;
         max-width: min-content;
     }
+    .no-scroll {
+        scroll-snap-align: start;
+    }
     .content {
         display: flex;
         flex-flow: nowrap column;

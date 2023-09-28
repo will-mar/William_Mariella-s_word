@@ -10,9 +10,12 @@
   nav {
     padding: 0 8vh;
   }
+  .no-scroll {
+    scroll-snap-align: start;
+  }
   .libri {
     padding-left: 10%;
-    margin-top: -70px;
+    margin-top: -100px;
   }
   .libri img {
     float: left;
