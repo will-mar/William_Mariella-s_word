@@ -411,6 +411,7 @@ video {
   display: flex;
   justify-content: space-evenly;
   padding: 40px 0;
+  margin-bottom: 20px;
 }
 .merch-buttons button {
   cursor: pointer;
