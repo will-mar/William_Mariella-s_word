@@ -377,7 +377,7 @@ video {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
-  padding-top: 180px;
+  padding-top: 200px;
 }
 .libri img {
   display: block;
@@ -410,7 +410,7 @@ video {
 .merch-buttons {
   display: flex;
   justify-content: space-evenly;
-  padding: 55px 0;
+  padding: 20px 0;
 }
 .merch-buttons button {
   cursor: pointer;
