@@ -343,7 +343,7 @@ video {
 .libri {
     min-height: 100%;
     min-width: 100%;
-    padding-top: 190px;
+    padding-top: 180px;
     img {
         display: block;
         margin: 20px auto;
@@ -351,7 +351,7 @@ video {
 }
 .lyrics {
     display: block;
-    min-width: fit-content;
+    width: fit-content;
     margin: 0 auto;
     font-family: "Caveat";
     font-weight: bold;
