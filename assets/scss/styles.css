@@ -379,8 +379,8 @@ video {
 
 .lyrics {
   display: block;
-  min-width: -moz-max-content;
-  min-width: max-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   margin: 0 auto;
   font-family: "Caveat";
   font-weight: bold;
