@@ -23,10 +23,6 @@ body {
         padding: 0 5%;
         margin: 0 auto;
 }
-img {
-    width: initial;
-    height: initial;
-}
 nav {
     background-color: $nav-color;
     display: flex;
@@ -49,17 +45,17 @@ nav {
     }
 }
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
     cursor: pointer;
     &:hover {
-        color: orangered;
+        color: lightgreen;
     }
     &:visited {
-        color: indigo;
+        color: lightgrey;
     }
     &:hover:visited {
-        color: lightgreen;
+        color: pink;
     }
 }
 section a {

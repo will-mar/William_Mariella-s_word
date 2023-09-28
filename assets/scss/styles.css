@@ -20,11 +20,6 @@ body {
   margin: 0 auto;
 }
 
-img {
-  width: initial;
-  height: initial;
-}
-
 nav {
   background-color: #7e87a5;
   display: flex;
@@ -48,18 +43,18 @@ nav ul li {
 }
 
 nav a {
-  color: black;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
 nav a:hover {
-  color: orangered;
+  color: lightgreen;
 }
 nav a:visited {
-  color: indigo;
+  color: lightgrey;
 }
 nav a:hover:visited {
-  color: lightgreen;
+  color: pink;
 }
 
 section a {
