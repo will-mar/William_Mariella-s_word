@@ -341,7 +341,6 @@ video {
     }
 }
 .libri {
-    scroll-snap-align: start;
     min-height: 100%;
     min-width: 100%;
     padding-top: 190px;
@@ -352,7 +351,7 @@ video {
 }
 .lyrics {
     display: block;
-    width: max-content;
+    min-width: max-content;
     margin: 0 auto;
     font-family: "Caveat";
     font-weight: bold;
