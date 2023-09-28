@@ -290,6 +290,10 @@ footer .social a img {
   margin-top: 10px;
 }
 
+.bio .no-scroll {
+  scroll-snap-align: none;
+}
+
 .content {
   padding: 0 5%;
 }
