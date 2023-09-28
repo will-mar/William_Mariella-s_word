@@ -360,8 +360,6 @@ video {
   scroll-snap-type: x mandatory;
 }
 .x-scroller::-webkit-scrollbar {
-  position: absolute;
-  bottom: 3;
   background-color: #dca6e9;
   height: 8px;
 }
