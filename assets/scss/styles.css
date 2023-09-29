@@ -118,7 +118,7 @@ section .repository {
   background-color: #a827c2;
   font-size: 16px;
   padding: 7px 20px;
-  margin: 80px auto;
+  margin: 100px auto;
   border: 1px solid #7e87a5;
   border-radius: 20px;
 }
@@ -138,7 +138,7 @@ section .repository a:hover {
   background-color: #eec34b;
   padding: 80px 20px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 200px;
   width: 80%;
   border: 1px solid #7e87a5;
   border-bottom: none;
@@ -156,6 +156,7 @@ section .repository a:hover {
 .my-form {
   background-color: #eec34b;
   margin: 0 auto;
+  margin-bottom: 200px;
   width: 80%;
   border: 1px solid #7e87a5;
   border-top: none;
