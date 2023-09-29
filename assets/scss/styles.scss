@@ -49,13 +49,13 @@ nav a {
     text-decoration: none;
     cursor: pointer;
     &:hover {
-        color: lightgreen;
+        color: yellowgreen;
     }
     &:visited {
-        color: lightgrey;
+        color: antiquewhite;
     }
     &:hover:visited {
-        color: pink;
+        color: lightgreen;
     }
 }
 section a {

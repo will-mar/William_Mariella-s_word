@@ -48,13 +48,13 @@ nav a {
   cursor: pointer;
 }
 nav a:hover {
-  color: lightgreen;
+  color: yellowgreen;
 }
 nav a:visited {
-  color: lightgrey;
+  color: antiquewhite;
 }
 nav a:hover:visited {
-  color: pink;
+  color: lightgreen;
 }
 
 section a {
