@@ -311,7 +311,8 @@ footer {
     margin: 60px auto;
 }
 .bio:nth-of-type(3),
-.bio:nth-of-type(6) {
+.bio:nth-of-type(6),
+.bio:last-of-type {
     ul {
     list-style-type: disclosure-closed; 
     }

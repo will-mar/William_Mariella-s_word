@@ -337,7 +337,8 @@ footer .social a img {
 }
 
 .bio:nth-of-type(3) ul,
-.bio:nth-of-type(6) ul {
+.bio:nth-of-type(6) ul,
+.bio:last-of-type ul {
   list-style-type: disclosure-closed;
 }
 
