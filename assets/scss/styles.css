@@ -136,7 +136,7 @@ section .repository a:hover {
 .form-header {
   text-align: center;
   background-color: #eec34b;
-  padding: 80px 20px;
+  padding: 120px 20px;
   margin: 0 auto;
   margin-top: 200px;
   width: 80%;
@@ -179,7 +179,7 @@ section .repository a:hover {
 .form-row input,
 .form-row select,
 .form-row textarea {
-  margin-bottom: 60px;
+  margin-bottom: 80px;
   border: 1px solid #7e87a5;
   border-radius: 5px;
   padding: 7px;
@@ -209,7 +209,7 @@ input[type=submit] {
   font-weight: bold;
   text-align: center;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
   padding: 15px 40px;
   background-color: #7e87a5;
   border: 1px solid #0f1015;
@@ -317,7 +317,7 @@ footer .social a img {
   display: block;
   background-color: #a827c2;
   font-size: 16px;
-  margin: 30px auto;
+  margin: 40px auto;
   padding: 7px 20px;
   border-radius: 20px;
   border: 1px solid #7e87a5;
@@ -330,10 +330,6 @@ footer .social a img {
 .two-buttons button a {
   text-decoration: none;
   color: whitesmoke;
-}
-
-.content button {
-  margin: 60px auto;
 }
 
 .bio:nth-of-type(3) ul,

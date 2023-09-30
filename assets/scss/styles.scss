@@ -131,7 +131,7 @@ section .repository {
 .form-header {
     text-align: center;
     background-color: $form-color;
-    padding: 80px 20px;
+    padding: 120px 20px;
     margin: 0 auto;
     margin-top: 200px;
     width: 80%;
@@ -171,7 +171,7 @@ section .repository {
 .form-row input,
 .form-row select,
 .form-row textarea {
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     border: 1px solid $nav-color;
     border-radius: 5px;
     padding: 7px;
@@ -197,7 +197,7 @@ input[type=submit] {
     font-weight: bold;
     text-align: center;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding: 15px 40px;
     background-color: $nav-color;
     border: 1px solid darken($nav-color, 50%);
@@ -295,7 +295,7 @@ footer {
     display: block;
     background-color: $shiny-button;
     font-size: 16px;
-    margin: 30px auto;
+    margin: 40px auto;
     padding: 7px 20px;
     border-radius: 20px;
     border: 1px solid $nav-color;
@@ -306,9 +306,6 @@ footer {
         text-decoration: none;
         color: whitesmoke;
     }
-}
-.content button {
-    margin: 60px auto;
 }
 .bio:nth-of-type(3),
 .bio:nth-of-type(6),
