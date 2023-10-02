@@ -106,7 +106,7 @@ section p {
     color: darken($nav-color, 50%);
     border-bottom: 1px solid darken($nav-color, 20%);
     border-right: 1px solid darken($nav-color, 20%);
-    padding-right: 3%;
+    padding: 0 2% 1% 0;
 }
 section .repository {
     cursor: pointer;
