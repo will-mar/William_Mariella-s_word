@@ -268,7 +268,7 @@ footer .social a img {
 .bio h2 {
   text-align: center;
   font-size: 23px;
-  padding: 70px 15px 40px 15px;
+  padding: 80px 15px 40px 15px;
 }
 
 .bio figure {
@@ -277,6 +277,9 @@ footer .social a img {
   justify-items: center;
   align-items: center;
   margin-bottom: 30px;
+}
+.bio figure img {
+  margin-top: 10px;
 }
 .bio figure figcaption {
   font-style: italic;
