@@ -3,10 +3,10 @@
 @import "partial_laptop_style.css";
 $nav-color: #7e87a5;
 $coloured-light-grey-1: #f4e3f8;
-$footer-color: #041801;
-$footer-color-2: lighten($footer-color, 20%);
-$form-color: #eec34b;
 $shiny-button: #a827c2;
+$footer-color: darken($shiny-button, 40%);
+$footer-color-2: lighten($footer-color, 20%);
+$form-color: #ffb657;
 * {
     padding: 0;
     margin: 0;
@@ -150,7 +150,7 @@ section .repository {
 .my-form {
     background-color: $form-color;
     margin: 0 auto;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     width: 80%;
     border: 1px solid $nav-color;
     border-top: none;
@@ -199,11 +199,11 @@ input[type=submit] {
     margin: 0 auto;
     margin-bottom: 80px;
     padding: 15px 40px;
-    background-color: $nav-color;
-    border: 1px solid darken($nav-color, 50%);
+    background-color: $shiny-button;
+    border: 1px solid darken($nav-color, 30%);
     border-radius: 30px;
     &:hover {
-        background-color: darken($nav-color, 10%);
+        background-color: darken($shiny-button, 10%);
     }
 }
 .popover {
@@ -217,6 +217,7 @@ footer {
     background: linear-gradient($footer-color-2, $footer-color);
     color: whitesmoke;
     position: relative;
+    scroll-snap-align: end;
     bottom: 0;
     padding-top: 3px;
     margin-top: 100px;
@@ -241,17 +242,16 @@ footer {
 .y-scroller {
     overflow-y: scroll;
     scroll-snap-type: y proximity;
-    scroll-snap-stop: always;
     justify-content: center;
 }
 .bio {
     display: block;
-    scroll-snap-align: start;
     scroll-snap-stop: always;
+    scroll-snap-align: start;
     h2 {
         text-align: center;
         font-size: 23px;
-        padding: 70px 15px 30px 15px;
+        padding: 70px 15px 40px 15px;
     }
 }
 .bio figure {
@@ -268,11 +268,9 @@ footer {
         margin-top: 10px;
     }
 }
-.no-scroll {
-    scroll-snap-align: none;
-}
 .content {
     padding: 0 5%;
+    scroll-snap-align: none;
 }
 .content ul {
     padding: 0 5%;
@@ -319,7 +317,11 @@ video {
     margin: 0 auto;
     max-width: 70%;
     max-height: 15%;
+    padding-top: 10px;
     margin-bottom: 30px;
+}
+.img-border {
+    border: 1px solid $nav-color;
 }
 .x-scroller {
     display: flex;
@@ -338,7 +340,7 @@ video {
         width: 20px;
     }
 }
-.libri {
+.book-promo {
     scroll-snap-align: start;
     min-height: 100%;
     min-width: 100%;

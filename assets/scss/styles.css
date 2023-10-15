@@ -135,7 +135,7 @@ section .repository a:hover {
 
 .form-header {
   text-align: center;
-  background-color: #eec34b;
+  background-color: #ffb657;
   padding: 80px 20px 140px 20px;
   margin: 0 auto;
   margin-top: 200px;
@@ -154,9 +154,9 @@ section .repository a:hover {
 }
 
 .my-form {
-  background-color: #eec34b;
+  background-color: #ffb657;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   width: 80%;
   border: 1px solid #7e87a5;
   border-top: none;
@@ -211,12 +211,12 @@ input[type=submit] {
   margin: 0 auto;
   margin-bottom: 80px;
   padding: 15px 40px;
-  background-color: #7e87a5;
-  border: 1px solid #0f1015;
+  background-color: #a827c2;
+  border: 1px solid #393e51;
   border-radius: 30px;
 }
 input[type=submit]:hover {
-  background-color: #636c8d;
+  background-color: #831e98;
 }
 
 .popover {
@@ -228,9 +228,10 @@ input[type=submit]:hover {
 }
 
 footer {
-  background: linear-gradient(#147a05, #041801);
+  background: linear-gradient(#5e166d, #150518);
   color: whitesmoke;
   position: relative;
+  scroll-snap-align: end;
   bottom: 0;
   padding-top: 3px;
   margin-top: 100px;
@@ -256,19 +257,18 @@ footer .social a img {
 .y-scroller {
   overflow-y: scroll;
   scroll-snap-type: y proximity;
-  scroll-snap-stop: always;
   justify-content: center;
 }
 
 .bio {
   display: block;
-  scroll-snap-align: start;
   scroll-snap-stop: always;
+  scroll-snap-align: start;
 }
 .bio h2 {
   text-align: center;
   font-size: 23px;
-  padding: 70px 15px 30px 15px;
+  padding: 70px 15px 40px 15px;
 }
 
 .bio figure {
@@ -286,12 +286,9 @@ footer .social a img {
   margin-top: 10px;
 }
 
-.no-scroll {
-  scroll-snap-align: none;
-}
-
 .content {
   padding: 0 5%;
+  scroll-snap-align: none;
 }
 
 .content ul {
@@ -343,7 +340,12 @@ video {
   margin: 0 auto;
   max-width: 70%;
   max-height: 15%;
+  padding-top: 10px;
   margin-bottom: 30px;
+}
+
+.img-border {
+  border: 1px solid #7e87a5;
 }
 
 .x-scroller {
@@ -364,13 +366,13 @@ video {
   width: 20px;
 }
 
-.libri {
+.book-promo {
   scroll-snap-align: start;
   min-height: 100%;
   min-width: 100%;
   padding-top: 195px;
 }
-.libri img {
+.book-promo img {
   display: block;
   margin: 20px auto;
 }
@@ -416,7 +418,7 @@ video {
   background-color: #831e98;
 }
 .merch-buttons button:last-of-type {
-  background-color: #0c4903;
+  background-color: #3a0d43;
 }
 .merch-buttons button:last-of-type:hover {
   opacity: 80%;
