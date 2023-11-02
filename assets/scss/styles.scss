@@ -19,9 +19,9 @@ body {
 }
 .page,
 .footer-content {
-        display: block;
-        padding: 0 5%;
-        margin: 0 auto;
+    display: block;
+    padding: 0 5%;
+    margin: 0 auto;
 }
 nav {
     background-color: $nav-color;
@@ -93,13 +93,13 @@ h1 {
         font-weight: bold;
         align-self: center;
         font-size: 20px;
-        line-height: 1.3em;
+        line-height: 27px;
     }
 }
 section p {
     font-size: 20px;
     margin-bottom: 30px;
-    line-height: 1.6em;
+    line-height: 30px;
 }
 .synopsis {
     font-style: italic;
@@ -160,7 +160,7 @@ section .repository {
     flex-flow: wrap row-reverse;
     justify-content: center;
     padding: 0 30px;
-    line-height: 1.5em;
+    line-height: 26px;
     font-size: 18px;
     label {
         width: 200px;
@@ -211,7 +211,7 @@ input[type=submit] {
     background-color: lighten($shiny-button, 45%);
     border: 1px solid $nav-color;
     padding: 20px;
-    line-height: 1.8em;
+    line-height: 30px;
 }
 footer {
     background: linear-gradient($footer-color-2, $footer-color);
@@ -246,12 +246,11 @@ footer {
 }
 .bio {
     display: block;
-    scroll-snap-stop: always;
     scroll-snap-align: start;
     h2 {
         text-align: center;
-        font-size: 23px;
-        padding: 80px 15px 40px 15px;
+        font-size: 26px;
+        padding: 70px 15px 30px 15px;
     }
 }
 .bio figure {
@@ -266,7 +265,7 @@ footer {
     figcaption {
         font-style: italic;
         font-size: 14px;
-        line-height: 1.5em;
+        line-height: 18px;
         padding: 0 5%;
         margin-top: 10px;
     }
@@ -278,7 +277,7 @@ footer {
 .content ul {
     padding: 0 5%;
     font-size: 20px;
-    line-height: 1.6em;
+    line-height: 30px;
     margin-bottom: 30px;
     list-style-type: circle;
     ul:last-of-type {
@@ -347,7 +346,7 @@ video {
     scroll-snap-align: start;
     min-height: 100%;
     min-width: 100%;
-    padding-top: 195px;
+    padding-top: 170px;
     img {
         display: block;
         margin: 20px auto;
