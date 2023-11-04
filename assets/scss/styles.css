@@ -398,6 +398,8 @@ video {
 .lyrics p:last-of-type {
   font-family: "Lato";
   font-weight: normal;
+  width: -moz-max-content;
+  width: max-content;
   font-size: 13px;
   margin: 20px 0 20px 2px;
 }
